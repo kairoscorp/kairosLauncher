@@ -16,7 +16,7 @@
 
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.launcher3.tests">
+    package="com.android.launcher.tests">
 
     <uses-sdk android:targetSdkVersion="25" android:minSdkVersion="21"/>
 
@@ -24,7 +24,7 @@
         <uses-library android:name="android.test.runner" />
 
         <receiver
-            android:name="com.android.launcher3.testcomponent.AppWidgetNoConfig"
+            android:name="com.android.launcher.testcomponent.AppWidgetNoConfig"
             android:label="No Config">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -34,7 +34,7 @@
         </receiver>
 
         <receiver
-            android:name="com.android.launcher3.testcomponent.AppWidgetWithConfig"
+            android:name="com.android.launcher.testcomponent.AppWidgetWithConfig"
             android:label="With Config">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -44,13 +44,13 @@
         </receiver>
 
         <activity
-            android:name="com.android.launcher3.testcomponent.WidgetConfigActivity">
+            android:name="com.android.launcher.testcomponent.WidgetConfigActivity">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
             </intent-filter>
         </activity>
         <activity
-            android:name="com.android.launcher3.testcomponent.RequestPinItemActivity"
+            android:name="com.android.launcher.testcomponent.RequestPinItemActivity"
             android:label="Test Pin Item"
             android:icon="@drawable/test_drawable_pin_item">
             <intent-filter>

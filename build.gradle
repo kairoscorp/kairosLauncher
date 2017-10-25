@@ -92,7 +92,7 @@ protobuf {
                 task.builtins {
                     remove java
                     javanano {
-                        option "java_package=launcher_log.proto|com.android.launcher3.userevent.nano"
+                        option "java_package=launcher_log.proto|com.kairos.launcher.userevent.nano"
                         option "enum_style=java"
                     }
                 }

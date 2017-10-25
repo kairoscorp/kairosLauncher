@@ -113,7 +113,7 @@
         worspace configuration to the dump's file descriptor by using launcher_dump.proto
         -->
         <meta-data
-            android:name="com.android.launcher3.launcher_dump_provider"
+            android:name="com.android.launcher.launcher_dump_provider"
             android:value="com.android.launcher3.LauncherProvider" />
 
     </application>
