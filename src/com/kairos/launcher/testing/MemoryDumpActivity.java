@@ -42,6 +42,8 @@ import java.util.Arrays;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
+/* Activity to dump memory in case a crash occurs
+* or if you just want to check the current state of the program */
 public class MemoryDumpActivity extends Activity {
     private static final String TAG = "MemoryDumpActivity";
 

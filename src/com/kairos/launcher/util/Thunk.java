@@ -38,6 +38,12 @@ import java.lang.annotation.Target;
  * <p>
  *
  */
+
+/* Long story short: if an OUTER class accesses a PRIVATE field of an INNER class DIRECTLY,
+ * the compiler needs to create a method to retrieve that field.
+ * This annotation makes that field visible to the package (not private) and thus reducing
+ * the overhead of calling a private method from an inner class */
+
 @Retention(RetentionPolicy.SOURCE)
 @Target({ElementType.METHOD, ElementType.FIELD, ElementType.CONSTRUCTOR, ElementType.TYPE})
 public @interface Thunk { }

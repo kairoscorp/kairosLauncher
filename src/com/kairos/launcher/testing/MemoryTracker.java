@@ -34,6 +34,8 @@ import com.kairos.launcher.util.TestingUtils;
 import java.util.ArrayList;
 import java.util.List;
 
+/* Class responsible for tracking the running processes
+ * MemoryDumpActivity uses this class to select which processes' memory to dump */
 public class MemoryTracker extends Service {
     public static final String TAG = MemoryTracker.class.getSimpleName();
 
