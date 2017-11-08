@@ -30,9 +30,13 @@ import com.kairos.launcher.userevent.nano.LauncherLogProto;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
-/**
- * Helper methods for logging.
- */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Some useful methods for logging such as getting fields names
+ ----------------------------------------------------------------*/
 public class LoggerUtils {
     private static final ArrayMap<Class, SparseArray<String>> sNameCache = new ArrayMap<>();
     private static final String UNKNOWN = "UNKNOWN";

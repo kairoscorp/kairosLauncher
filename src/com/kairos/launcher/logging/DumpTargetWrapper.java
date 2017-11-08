@@ -26,9 +26,12 @@ import com.kairos.launcher.model.LauncherDumpProto;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * This class can be used when proto definition doesn't support nesting.
- */
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class is used when proto definition doesn't support nesting.
+ ----------------------------------------------------------------*/
 public class DumpTargetWrapper {
     LauncherDumpProto.DumpTarget node;
     ArrayList<DumpTargetWrapper> children;
