@@ -5,7 +5,12 @@ import android.appwidget.AppWidgetProviderInfo;
 import com.kairos.launcher.CustomAppWidget;
 import com.kairos.launcher.R;
 
-// It's just a dummy widget
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * It's just a dummy widget
+ ----------------------------------------------------------------*/
 public class DummyWidget implements CustomAppWidget {
     @Override
     public String getLabel() {
