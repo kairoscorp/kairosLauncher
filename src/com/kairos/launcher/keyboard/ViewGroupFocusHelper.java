@@ -23,8 +23,15 @@ import android.view.View.OnFocusChangeListener;
 import com.kairos.launcher.PagedView;
 
 /**
- * {@link FocusIndicatorHelper} for a generic view group.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * {@link FocusIndicatorHelper} for a generic view group.
+ * Similar to {@link FocusIndicatorHelper} but for a view group
+ ----------------------------------------------------------------*/
 public class ViewGroupFocusHelper extends FocusIndicatorHelper {
 
     private final View mContainer;

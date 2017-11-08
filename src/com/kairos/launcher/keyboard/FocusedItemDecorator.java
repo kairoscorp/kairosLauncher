@@ -25,8 +25,13 @@ import android.view.View;
 import android.view.View.OnFocusChangeListener;
 
 /**
- * {@link ItemDecoration} for drawing and animating focused view background.
  */
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * {@link ItemDecoration} for drawing and animating focused view background.
+ ----------------------------------------------------------------*/
 public class FocusedItemDecorator extends ItemDecoration {
 
     private FocusIndicatorHelper mHelper;
