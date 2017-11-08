@@ -37,9 +37,14 @@ import com.kairos.launcher.allapps.AllAppsBackgroundDrawable;
 
 import java.util.HashMap;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Factory for creating new drawables.
- */
+ * Everytime is needed to create a new drawable this class shoiuld be used
+ * For more information check Factory Design Patterns
+ ----------------------------------------------------------------*/
 public class DrawableFactory {
 
     private static final String TAG = "DrawableFactory";

@@ -29,9 +29,12 @@ import android.util.Log;
 
 import com.kairos.launcher.util.Themes;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Contains colors based on the dominant color of an icon.
- */
+ ----------------------------------------------------------------*/
 public class IconPalette {
 
     private static final boolean DEBUG = false;

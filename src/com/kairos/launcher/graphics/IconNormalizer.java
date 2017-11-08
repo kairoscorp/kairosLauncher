@@ -41,6 +41,12 @@ import java.io.FileOutputStream;
 import java.nio.ByteBuffer;
 import java.util.Random;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class used to normalize the icons sizes
+ ----------------------------------------------------------------*/
 public class IconNormalizer {
 
     private static final String TAG = "IconNormalizer";
