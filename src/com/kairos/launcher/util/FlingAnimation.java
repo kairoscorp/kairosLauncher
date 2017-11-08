@@ -14,6 +14,15 @@ import com.kairos.launcher.dragndrop.DragLayer;
 import com.kairos.launcher.dragndrop.DragView;
 import com.kairos.launcher.DropTarget;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Implements a fling animation, which consists of an animation
+ * with an initial speed (based on the velocity of the gesture)
+ * and slows down.
+ ----------------------------------------------------------------*/
+
 public class FlingAnimation implements AnimatorUpdateListener, Runnable {
 
     /**

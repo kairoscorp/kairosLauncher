@@ -31,6 +31,14 @@ import com.kairos.launcher.compat.UserManagerCompat;
 /**
  * A wrapper around {@link ContentValues} with some utility methods.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * ContentWriter wraps ContentValues which is used to store key-value pairs
+ * to make update/insert operations in SQLite.
+ ----------------------------------------------------------------*/
 public class ContentWriter {
 
     private final ContentValues mValues;

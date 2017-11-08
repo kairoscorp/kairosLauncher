@@ -25,6 +25,14 @@ import com.kairos.launcher.compat.UserManagerCompat;
 
 import java.util.Arrays;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Encapsulates an application component (Activity, Service, BroadcastReceiver, or ContentProvider),
+ * the user it is associated to and a hashcode.
+ ----------------------------------------------------------------*/
+
 public class ComponentKey {
 
     public final ComponentName componentName;

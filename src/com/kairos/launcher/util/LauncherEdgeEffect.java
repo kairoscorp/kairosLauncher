@@ -28,6 +28,13 @@ import android.view.animation.Interpolator;
  *   1) It does not use PorterDuffXfermode
  *   2) The width to radius factor is smaller (0.5 instead of 0.75)
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * It's the effect caused when the user scrolls beyond the content
+ ----------------------------------------------------------------*/
 public class LauncherEdgeEffect {
 
     // Time it will take the effect to fully recede in ms

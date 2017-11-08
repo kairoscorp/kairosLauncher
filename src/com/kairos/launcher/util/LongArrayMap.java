@@ -23,6 +23,18 @@ import java.util.Iterator;
 /**
  * Extension of {@link LongSparseArray} with some utility methods.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class extends LongSparseArray, which is a class that
+ * makes it possible to map longs (primitive) to Objects.
+ * It is more memory efficient than a HashMap because it avoids
+ * using an Object (Long) as a key. It also allows for gaps in the indices.
+ *
+ * Extra methods are containsKey and isEmpty.
+ ----------------------------------------------------------------*/
 public class LongArrayMap<E> extends LongSparseArray<E> implements Iterable<E> {
 
     public boolean containsKey(long key) {
