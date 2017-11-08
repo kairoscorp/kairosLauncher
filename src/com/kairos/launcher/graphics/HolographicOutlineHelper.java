@@ -35,10 +35,13 @@ import com.kairos.launcher.config.ProviderConfig;
 
 import java.nio.ByteBuffer;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Utility class to generate shadow and outline effect, which are used for click feedback
  * and drag-n-drop respectively.
- */
+ ----------------------------------------------------------------*/
 public class HolographicOutlineHelper {
 
     private static HolographicOutlineHelper sInstance;
