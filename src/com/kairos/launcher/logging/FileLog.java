@@ -20,13 +20,16 @@ import java.util.Date;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Wrapper around {@link Log} to allow writing to a file.
  * This class can safely be called from main thread.
  *
  * Note: This should only be used for logging errors which have a persistent effect on user's data,
  * but whose effect may not be visible immediately.
- */
+ ----------------------------------------------------------------*/
 public final class FileLog {
 
     private static final String FILE_NAME_PREFIX = "log-";

@@ -25,9 +25,13 @@ import com.kairos.launcher.util.LabelComparator;
 
 import java.util.Comparator;
 
-/**
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * A comparator to arrange items based on user profiles.
- */
+
+ ----------------------------------------------------------------*/
 public class AppInfoComparator implements Comparator<AppInfo> {
 
     private final UserManagerCompat mUserManager;

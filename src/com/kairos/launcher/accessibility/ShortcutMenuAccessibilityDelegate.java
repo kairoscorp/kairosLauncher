@@ -30,10 +30,15 @@ import com.kairos.launcher.shortcuts.DeepShortcutView;
 
 import java.util.ArrayList;
 
-/**
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Extension of {@link LauncherAccessibilityDelegate} with actions specific to shortcuts in
  * deep shortcuts menu.
- */
+
+ ----------------------------------------------------------------*/
 public class ShortcutMenuAccessibilityDelegate extends LauncherAccessibilityDelegate {
 
     private static final int DISMISS_NOTIFICATION = com.kairos.launcher.R.id.action_dismiss_notification;

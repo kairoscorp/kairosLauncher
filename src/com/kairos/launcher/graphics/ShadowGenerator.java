@@ -28,9 +28,12 @@ import android.graphics.RectF;
 import com.kairos.launcher.LauncherAppState;
 import com.kairos.launcher.util.Preconditions;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Utility class to add shadows to bitmaps.
- */
+ ----------------------------------------------------------------*/
 public class ShadowGenerator {
 
     // Percent of actual icon size

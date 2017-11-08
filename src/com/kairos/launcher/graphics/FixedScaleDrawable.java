@@ -12,8 +12,13 @@ import android.util.AttributeSet;
 import org.xmlpull.v1.XmlPullParser;
 
 /**
- * Extension of {@link DrawableWrapper} which scales the child drawables by a fixed amount.
  */
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Extension of {@link DrawableWrapper} which scales the child drawables by a fixed amount.
+ ----------------------------------------------------------------*/
 @TargetApi(Build.VERSION_CODES.N)
 public class FixedScaleDrawable extends DrawableWrapper {
 

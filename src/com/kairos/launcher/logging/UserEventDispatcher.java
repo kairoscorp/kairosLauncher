@@ -44,12 +44,15 @@ import static com.kairos.launcher.logging.LoggerUtils.newLauncherEvent;
 import static com.kairos.launcher.logging.LoggerUtils.newTarget;
 import static com.kairos.launcher.logging.LoggerUtils.newTouchAction;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Manages the creation of {@link LauncherLogProto.LauncherEvent}.
  * To debug this class, execute following command before side loading a new apk.
  *
  * $ adb shell setprop log.tag.UserEvent VERBOSE
- */
+ ----------------------------------------------------------------*/
 public class UserEventDispatcher {
 
     private final static int MAXIMUM_VIEW_HIERARCHY_LEVEL = 5;

@@ -31,9 +31,13 @@ import android.util.Property;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
 
-/**
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A helper class to draw background of a focused view.
- */
+ ----------------------------------------------------------------*/
 public abstract class FocusIndicatorHelper implements
         OnFocusChangeListener, AnimatorUpdateListener {
 

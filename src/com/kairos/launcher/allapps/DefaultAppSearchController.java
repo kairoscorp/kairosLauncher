@@ -15,9 +15,13 @@
  */
 package com.kairos.launcher.allapps;
 
-/**
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * The default search controller.
- */
+
+ ----------------------------------------------------------------*/
 public class DefaultAppSearchController extends AllAppsSearchBarController {
 
     public DefaultAppSearchAlgorithm onInitializeSearch() {

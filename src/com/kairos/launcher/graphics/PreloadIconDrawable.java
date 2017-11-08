@@ -36,9 +36,12 @@ import com.kairos.launcher.FastBitmapDrawable;
 
 import java.lang.ref.WeakReference;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Extension of {@link FastBitmapDrawable} which shows a progress bar around the icon.
- */
+ ----------------------------------------------------------------*/
 public class PreloadIconDrawable extends FastBitmapDrawable {
 
     private static final Property<PreloadIconDrawable, Float> INTERNAL_STATE =

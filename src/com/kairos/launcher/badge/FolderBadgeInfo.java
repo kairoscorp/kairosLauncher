@@ -19,9 +19,16 @@ package com.kairos.launcher.badge;
 import com.kairos.launcher.Utilities;
 
 /**
+
+ */
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Subclass of BadgeInfo that only contains the badge count, which is
  * the sum of all the Folder's items' notifications (each counts as 1).
- */
+ ----------------------------------------------------------------*/
+
+
 public class FolderBadgeInfo extends BadgeInfo {
 
     private static final int MIN_COUNT = 0;

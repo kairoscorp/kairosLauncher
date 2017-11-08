@@ -27,7 +27,13 @@ import android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction;
 import com.kairos.launcher.Utilities;
 import com.kairos.launcher.Workspace;
 import com.kairos.launcher.config.FeatureFlags;
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Accessibility delegate with actions to move screen forwward and backward.
 
+ ----------------------------------------------------------------*/
 public class OverviewScreenAccessibilityDelegate extends AccessibilityDelegate {
 
     private static final int MOVE_BACKWARD = com.kairos.launcher.R.id.action_move_screen_backwards;

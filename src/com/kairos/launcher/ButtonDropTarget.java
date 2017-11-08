@@ -45,6 +45,16 @@ import com.kairos.launcher.dragndrop.DragView;
 import com.kairos.launcher.util.Themes;
 import com.kairos.launcher.util.Thunk;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class used to animate the target of a dragged icon.
+ * IE the options on the top of the grid to remove app from initial screen.
+ * It also controls what options show up on the top of the screen when dragging.
+ * By commenting some code the option to uninstall shows up
+ ----------------------------------------------------------------*/
+
 /**
  * Implements a DropTarget.
  */

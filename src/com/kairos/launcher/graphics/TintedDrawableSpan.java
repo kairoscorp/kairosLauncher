@@ -22,9 +22,12 @@ import android.graphics.Paint.FontMetricsInt;
 import android.graphics.drawable.Drawable;
 import android.text.style.DynamicDrawableSpan;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * {@link DynamicDrawableSpan} which draws a drawable tinted with the current paint color.
- */
+ ----------------------------------------------------------------*/
 public class TintedDrawableSpan extends DynamicDrawableSpan {
 
     private final Drawable mDrawable;
