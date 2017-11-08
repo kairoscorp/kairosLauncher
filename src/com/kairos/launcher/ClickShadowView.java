@@ -26,6 +26,13 @@ import android.view.View;
 import android.view.ViewDebug;
 import android.view.ViewGroup;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class used to give feedback when pressing by adding a shadow
+ ----------------------------------------------------------------*/
+
 public class ClickShadowView extends View {
 
     private static final int SHADOW_SIZE_FACTOR = 3;

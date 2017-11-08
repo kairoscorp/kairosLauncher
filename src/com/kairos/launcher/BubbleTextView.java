@@ -52,6 +52,16 @@ import com.kairos.launcher.model.PackageItemInfo;
 
 import java.text.NumberFormat;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class serves to draw a semi-tranperent bubble behind text.
+ * It deal with what happens when the user clicks on an icon in
+ * terms of UI. Meaning the outline of the icon, shadow etc.
+ * It's also responsible for drawing app icons and label.
+ ----------------------------------------------------------------*/
+
 /**
  * TextView that draws a bubble behind the text. We cannot use a LineBackgroundSpan
  * because we want to make the bubble taller than the text and TextView's clip is
