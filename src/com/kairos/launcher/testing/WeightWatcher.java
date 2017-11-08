@@ -36,6 +36,14 @@ import android.widget.TextView;
 
 import com.kairos.launcher.util.Thunk;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class draws graphs according to memory consumption data
+ * retrieved from the MemoryTracker class
+ ----------------------------------------------------------------*/
+
 public class WeightWatcher extends LinearLayout {
     private static final int RAM_GRAPH_RSS_COLOR = 0xFF990000;
     private static final int RAM_GRAPH_PSS_COLOR = 0xFF99CC00;

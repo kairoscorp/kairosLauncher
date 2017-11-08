@@ -10,6 +10,14 @@ import com.kairos.launcher.LauncherAppState;
 import com.kairos.launcher.Utilities;
 import com.kairos.launcher.util.TestingUtils;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Activity to select whether to show or not to show the graphs
+ * drawn by WeightWatcher
+ ----------------------------------------------------------------*/
+
 public class ToggleWeightWatcher extends Activity {
 
     @Override

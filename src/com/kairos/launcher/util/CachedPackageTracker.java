@@ -36,6 +36,14 @@ import java.util.Set;
  * Utility class to track list of installed packages. It persists the list so that apps
  * installed/uninstalled while Launcher was dead can also be handled properly.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Maintains a list of currently installed packages.
+ * Reacts to removal and addition of packages with onPackageRemoved and onPackageAdded.
+ ----------------------------------------------------------------*/
 public abstract class CachedPackageTracker implements LauncherAppsCompat.OnAppsChangedCallbackCompat {
 
     protected static final String INSTALLED_PACKAGES_PREFIX = "installed_packages_for_user_";

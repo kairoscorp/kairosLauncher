@@ -22,6 +22,21 @@ import android.os.Parcelable;
 /**
  * Utility class which stores information from onActivityResult
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class stores information from onActivityResult.
+ *
+ * When an activity A starts an activity B expecting that B returns a result,
+ * the onActivityResult method is going to be called in A when B finishes and
+ * returns its result.
+ *
+ * This class is used to store the returned information in case the workspace is
+ * still loading when the information arrives.
+ ----------------------------------------------------------------*/
+
 public class ActivityResultInfo implements Parcelable {
 
     public final int requestCode;
