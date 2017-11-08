@@ -40,9 +40,14 @@ import com.kairos.launcher.util.ComponentKey;
 
 import java.util.ArrayList;
 
-/**
+
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * An interface to a search box that AllApps can command.
- */
+ ----------------------------------------------------------------*/
 public abstract class AllAppsSearchBarController
         implements TextWatcher, OnEditorActionListener, ExtendedEditText.OnBackKeyListener {
 

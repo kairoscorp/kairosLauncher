@@ -30,9 +30,12 @@ import com.kairos.launcher.Launcher;
 import com.kairos.launcher.ShortcutInfo;
 import com.kairos.launcher.dragndrop.DragLayer;
 
-/**
- * Implementation of {@link DragAndDropAccessibilityDelegate} to support DnD on workspace.
- */
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Implementation of {@link DragAndDropAccessibilityDelegate} to support Do not Disturb  on workspace.
+
+ ----------------------------------------------------------------*/
 public class WorkspaceAccessibilityHelper extends DragAndDropAccessibilityDelegate {
 
     private final Rect mTempRect = new Rect();

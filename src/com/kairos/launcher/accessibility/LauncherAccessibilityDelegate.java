@@ -40,6 +40,16 @@ import com.kairos.launcher.dragndrop.DragController;
 
 import java.util.ArrayList;
 
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Implementation of {@link DragAndDropAccessibilityDelegate} to support Do not Disturb in a folder.
+
+ ----------------------------------------------------------------*/
+
 public class LauncherAccessibilityDelegate extends AccessibilityDelegate implements DragController.DragListener {
 
     private static final String TAG = "LauncherAccessibilityDelegate";

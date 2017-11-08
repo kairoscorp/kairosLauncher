@@ -30,9 +30,13 @@ import com.kairos.launcher.Launcher;
 
 import java.util.List;
 
-/**
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Helper class to make drag-and-drop in a {@link CellLayout} accessible.
- */
+ ----------------------------------------------------------------*/
 public abstract class DragAndDropAccessibilityDelegate extends ExploreByTouchHelper
         implements OnClickListener {
     protected static final int INVALID_POSITION = -1;

@@ -27,9 +27,13 @@ import com.kairos.launcher.Launcher;
 import com.kairos.launcher.R;
 import com.kairos.launcher.Utilities;
 
-/**
- * Accessibility delegate with actions pointing to various Overview entry points.
- */
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Accessibility delegate with actions to go settings walpapers, widgets, settings and overview.
+
+ ----------------------------------------------------------------*/
 public class OverviewAccessibilityDelegate extends AccessibilityDelegate {
 
     private static final int OVERVIEW = R.string.accessibility_action_overview;

@@ -31,9 +31,15 @@ import com.kairos.launcher.util.PackageUserKey;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Contains data to be used in an icon badge.
- */
+
+
+ ----------------------------------------------------------------*/
 public class BadgeInfo {
 
     public static final int MAX_COUNT = 999;

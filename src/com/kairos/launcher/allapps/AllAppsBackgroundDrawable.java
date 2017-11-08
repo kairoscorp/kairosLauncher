@@ -24,12 +24,11 @@ import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.view.Gravity;
-
-/**
- * This is a custom composite drawable that has a fixed virtual size and dynamically lays out its
- * children images relatively within its bounds.  This way, we can reduce the memory usage of a
- * single, large sparsely populated image.
- */
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Image Background all APP
+ ----------------------------------------------------------------*/
 public class AllAppsBackgroundDrawable extends Drawable {
 
     /**

@@ -41,9 +41,13 @@ import com.kairos.launcher.discovery.AppDiscoveryItemView;
 
 import java.util.List;
 
-/**
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * The grid view adapter of all the apps.
- */
+
+ ----------------------------------------------------------------*/
 public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.ViewHolder> {
 
     public static final String TAG = "AppsGridAdapter";

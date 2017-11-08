@@ -31,10 +31,12 @@ import android.util.SparseArray;
 import com.kairos.launcher.graphics.IconPalette;
 import com.kairos.launcher.graphics.ShadowGenerator;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Contains parameters necessary to draw a badge for an icon (e.g. the size of the badge).
  * @see BadgeInfo for the data to draw
- */
+ ----------------------------------------------------------------*/
 public class BadgeRenderer {
 
     private static final boolean DOTS_ONLY = true;
