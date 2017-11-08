@@ -45,9 +45,12 @@ import com.kairos.launcher.model.PackageItemInfo;
 import com.kairos.launcher.shortcuts.DeepShortcutManager;
 import com.kairos.launcher.shortcuts.ShortcutInfoCompat;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Helper methods for generating various launcher icons
- */
+ ----------------------------------------------------------------*/
 public class LauncherIcons {
 
     private static final Rect sOldBounds = new Rect();

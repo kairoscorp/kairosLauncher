@@ -33,10 +33,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Handles showing a popup menu with available custom actions for a launcher icon.
  * This allows exposing various custom actions using keyboard shortcuts.
- */
+ ----------------------------------------------------------------*/
 public class CustomActionsPopup implements OnMenuItemClickListener {
 
     private final Launcher mLauncher;

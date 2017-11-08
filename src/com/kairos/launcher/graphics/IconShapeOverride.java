@@ -42,8 +42,14 @@ import com.kairos.launcher.util.LooperExecuter;
 import java.lang.reflect.Field;
 
 /**
- * Utility class to override shape of {@link android.graphics.drawable.AdaptiveIconDrawable}.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Utility class to override shape of {@link android.graphics.drawable.AdaptiveIconDrawable}.
+ ----------------------------------------------------------------*/
 @TargetApi(Build.VERSION_CODES.O)
 public class IconShapeOverride {
 

@@ -31,9 +31,13 @@ import com.kairos.launcher.Workspace;
 import com.kairos.launcher.config.ProviderConfig;
 import com.kairos.launcher.folder.FolderIcon;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV <YOUR_NAME> :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A utility class to generate preview bitmap for dragging.
- */
+ * Used when an object if dragged in app
+ ----------------------------------------------------------------*/
 public class DragPreviewProvider {
 
     private final Rect mTempRect = new Rect();

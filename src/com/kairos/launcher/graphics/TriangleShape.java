@@ -21,10 +21,13 @@ import android.graphics.Path;
 import android.graphics.drawable.shapes.PathShape;
 import android.support.annotation.NonNull;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Wrapper around {@link android.graphics.drawable.shapes.PathShape}
  * that creates a shape with a triangular path (pointing up or down).
- */
+ ----------------------------------------------------------------*/
 public class TriangleShape extends PathShape {
     private Path mTriangularPath;
 
