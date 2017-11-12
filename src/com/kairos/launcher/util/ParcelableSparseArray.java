@@ -19,6 +19,23 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.util.SparseArray;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class represents a SparseArray of Parcelable objects and is itself Parcelable too.
+ *
+ * A SparseArray maps integers (primitives) to Objects and, as such,
+ * it is more memory efficient than a Map (keys are not Objects). It allows
+ * for gaps in the indices.
+ *
+ * A Parcelable in Android is the equivalent to the Serializable in Java.
+ * When an object needs to be sent to a different app component (e.g. an Activity)
+ * they need to implement Parcelable and specify how to be marshalled and unmarshalled.
+ *
+ *
+ ----------------------------------------------------------------*/
+
 public class ParcelableSparseArray extends SparseArray<Parcelable> implements Parcelable {
     public int describeContents() {
         return 0;
