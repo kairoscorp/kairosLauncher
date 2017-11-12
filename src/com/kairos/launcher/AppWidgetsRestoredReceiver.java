@@ -13,6 +13,18 @@ import android.util.Log;
 
 import com.kairos.launcher.util.ContentWriter;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class translates old widget ids to their new values (new widget ids)
+ * when widgets are restored from a backup.
+ *
+ * More specifically, onReceive listens for ACTION_APPWIDGET_HOST_RESTORED, which is sent to App Widget hosts
+ * (components that hold App Widgets), and converts the old ids to the corresponding
+ * new ids of the widgets in question (the restored ones).
+ ----------------------------------------------------------------*/
+
 public class AppWidgetsRestoredReceiver extends BroadcastReceiver {
 
     private static final String TAG = "AWRestoredReceiver";

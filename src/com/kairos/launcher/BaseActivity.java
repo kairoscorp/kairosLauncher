@@ -23,6 +23,13 @@ import android.view.View.AccessibilityDelegate;
 
 import com.kairos.launcher.logging.UserEventDispatcher;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class is extended by Launcher and AddItemActivity.
+ ----------------------------------------------------------------*/
+
 public abstract class BaseActivity extends Activity {
 
     protected DeviceProfile mDeviceProfile;
