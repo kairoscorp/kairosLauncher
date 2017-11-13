@@ -20,7 +20,7 @@ package com.kairos.launcher.util;
  * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
  * Copyright (c) 2017 KAIROS
  *
- * This class specifies the shape of the reveal animation.
+ * This class specifies the shape of a reveal animation.
  * The animation has a progress that goes from 0 to 1 and this class
  * uses that progress to specify a CIRCULAR reveal animation.
  ----------------------------------------------------------------*/

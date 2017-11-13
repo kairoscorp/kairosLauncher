@@ -16,6 +16,14 @@ import com.kairos.launcher.config.ProviderConfig;
  * An extension of {@link SQLiteOpenHelper} with utility methods for a single table cache DB.
  * Any exception during write operations are ignored, and any version change causes a DB reset.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * The inner class MySQLiteOpenHelper is the class that extends SQLiteOpenHelper.
+ ----------------------------------------------------------------*/
+
 public abstract class SQLiteCacheHelper {
     private static final String TAG = "SQLiteCacheHelper";
 

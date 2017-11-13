@@ -15,6 +15,14 @@ import com.kairos.launcher.Utilities;
 
 import java.util.HashMap;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Utility class with some methods useful for testing purposes like
+ * starting memory tracking, adding weight watcher (memory graphs) and dummy widgets.
+ ----------------------------------------------------------------*/
+
 public class TestingUtils {
 
     public static final String MEMORY_TRACKER = "MemoryTracker";
