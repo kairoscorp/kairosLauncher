@@ -27,6 +27,11 @@ import android.widget.TextView;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Layout App Discovery Item
+ ----------------------------------------------------------------*/
 public class AppDiscoveryItemView extends RelativeLayout {
 
     private static boolean SHOW_REVIEW_COUNT = false;

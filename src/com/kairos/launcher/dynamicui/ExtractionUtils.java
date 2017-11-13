@@ -32,9 +32,14 @@ import com.kairos.launcher.Utilities;
 
 import java.util.List;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Contains helper fields and methods related to extracting colors from the wallpaper.
- */
+
+
+ ----------------------------------------------------------------*/
+
 public class ExtractionUtils {
     public static final String EXTRACTED_COLORS_PREFERENCE_KEY = "pref_extractedColors";
     public static final String WALLPAPER_ID_PREFERENCE_KEY = "pref_wallpaperId";

@@ -20,9 +20,15 @@ import android.graphics.Point;
 
 import com.kairos.launcher.DropTarget;
 
-/**
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Set of options to control the drag and drop behavior.
- */
+
+
+ ----------------------------------------------------------------*/
 public class DragOptions {
 
     /** Whether or not an accessible drag operation is in progress. */

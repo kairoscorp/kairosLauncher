@@ -24,9 +24,11 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * A simple rating view that shows stars with a rating from 0-5.
- */
+ ----------------------------------------------------------------*/
 public class RatingView extends View {
 
     private static final float WIDTH_FACTOR = 0.9f;

@@ -6,7 +6,12 @@ import com.kairos.launcher.config.FeatureFlags;
 
 import java.util.ArrayList;
 import java.util.List;
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Class Layout of the  Folder Icon it self without any apps inside
 
+ ----------------------------------------------------------------*/
 public class ClippedFolderIconLayoutRule implements FolderIcon.PreviewLayoutRule {
 
     static final int MAX_NUM_ITEMS_IN_PREVIEW = 4;

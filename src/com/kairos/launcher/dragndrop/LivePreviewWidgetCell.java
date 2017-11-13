@@ -14,9 +14,13 @@ import com.kairos.launcher.LauncherAppWidgetProviderInfo;
 import com.kairos.launcher.widget.WidgetCell;
 import com.kairos.launcher.WidgetPreviewLoader;
 
-/**
- * Extension of {@link WidgetCell} which supports generating previews from {@link RemoteViews}
- */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Preview Widget Before adding
+
+ ----------------------------------------------------------------*/
 public class LivePreviewWidgetCell extends WidgetCell {
 
     private RemoteViews mPreview;

@@ -13,6 +13,14 @@ import java.lang.reflect.Method;
 import java.util.Locale;
 
 public class AlphabeticIndexCompat {
+
+    /**--------------------------------------------------------------
+     * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+     * Copyright (c) 2017 KAIROS
+     * App indexing by alphabetical order for all apps
+
+
+     ----------------------------------------------------------------*/
     private static final String TAG = "AlphabeticIndexCompat";
 
     private static final String MID_DOT = "\u2219";

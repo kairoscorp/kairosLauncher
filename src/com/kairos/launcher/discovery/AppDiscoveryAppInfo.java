@@ -24,6 +24,11 @@ import android.support.annotation.Nullable;
 import com.kairos.launcher.AppInfo;
 import com.kairos.launcher.LauncherSettings;
 import com.kairos.launcher.ShortcutInfo;
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * APP discovery class model
+ ----------------------------------------------------------------*/
 
 public class AppDiscoveryAppInfo extends AppInfo {
 

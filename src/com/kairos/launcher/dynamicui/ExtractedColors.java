@@ -25,8 +25,17 @@ import android.util.Log;
 import com.kairos.launcher.Utilities;
 
 /**
- * Saves and loads colors extracted from the wallpaper, as well as the associated wallpaper id.
  */
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Saves and loads colors extracted from the wallpaper, as well as the associated wallpaper id.
+
+
+ ----------------------------------------------------------------*/
+
 public class ExtractedColors {
     private static final String TAG = "ExtractedColors";
 
