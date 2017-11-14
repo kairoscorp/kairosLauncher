@@ -25,6 +25,17 @@ import java.util.concurrent.TimeUnit;
 /**
  * Extension of {@link AbstractExecutorService} which executed on a provided looper.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * If the looper of the current thread is the same as the looper of
+ * this LooperExecuter, then the task is run.
+ * Otherwise, it is placed in the message queue.
+ * (see method execute).
+ ----------------------------------------------------------------*/
+
 public class LooperExecuter extends AbstractExecutorService {
 
     private final Handler mHandler;
