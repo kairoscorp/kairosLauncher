@@ -43,6 +43,13 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.concurrent.Executor;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * View that handles widgets in the laucnher. Listens for clicks, resizes etcs.
+ ----------------------------------------------------------------*/
+
 /**
  * {@inheritDoc}
  */

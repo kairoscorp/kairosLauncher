@@ -15,6 +15,13 @@ import android.widget.Toast;
 
 import com.kairos.launcher.compat.LauncherAppsCompat;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Drop target to uninstall an app. Appears when you start dragginging an app. Currently disabled
+ ----------------------------------------------------------------*/
+
 public class UninstallDropTarget extends ButtonDropTarget {
 
     public UninstallDropTarget(Context context, AttributeSet attrs) {

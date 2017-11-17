@@ -88,6 +88,14 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class that implements the workspace.
+ * Workspace is the series of panels in the main screen where you can put apps, widgets etc.
+ ----------------------------------------------------------------*/
+
 /**
  * The workspace is a wide area with a wallpaper and a finite number of pages.
  * Each page contains a number of icons, folders or widgets the user can

@@ -18,6 +18,15 @@ package com.kairos.launcher;
 
 import android.content.ComponentName;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Meta data that is used for deferred binding.
+ * e.g., this object is used to pass information on draggable targets when they are dropped onto
+ * the workspace from another container.
+ ----------------------------------------------------------------*/
+
 /**
  * Meta data that is used for deferred binding.
  * e.g., this object is used to pass information on draggable targets when they are dropped onto

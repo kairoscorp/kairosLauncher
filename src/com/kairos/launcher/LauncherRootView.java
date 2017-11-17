@@ -11,6 +11,14 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewDebug;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This is the root view of the launcher. Meaning the parent view of all other views.
+ * All view are put inside this view or within a child of the root view.
+ ----------------------------------------------------------------*/
+
 public class LauncherRootView extends InsettableFrameLayout {
 
     private final Paint mOpaquePaint;

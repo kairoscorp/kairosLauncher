@@ -8,6 +8,13 @@ import android.os.ParcelFileDescriptor;
 import com.kairos.launcher.logging.FileLog;
 import com.kairos.launcher.provider.RestoreDbTask;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class that extends BackupAgent overriding some methods in order to deny some of its functionalities.
+ ----------------------------------------------------------------*/
+
 public class LauncherBackupAgent extends BackupAgent {
 
     @Override

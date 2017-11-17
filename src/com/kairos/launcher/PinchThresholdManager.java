@@ -16,6 +16,14 @@
 
 package com.kairos.launcher;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Keeps track of when thresholds are passed during a pinch gesture,
+ * used to inform {@link PinchAnimationManager} throughout.
+ ----------------------------------------------------------------*/
+
 /**
  * Keeps track of when thresholds are passed during a pinch gesture,
  * used to inform {@link PinchAnimationManager} throughout.

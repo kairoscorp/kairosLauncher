@@ -12,6 +12,16 @@ import android.os.Parcel;
 import android.os.Process;
 import android.os.UserHandle;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class is a thin wrapper around the framework AppWidgetProviderInfo class. This class affords
+ * a common object for describing both framework provided AppWidgets as well as custom widgets
+ * (who's implementation is owned by the launcher). This object represents a widget type / class,
+ * as opposed to a widget instance, and so should not be confused with {@link LauncherAppWidgetInfo}
+ ----------------------------------------------------------------*/
+
 /**
  * This class is a thin wrapper around the framework AppWidgetProviderInfo class. This class affords
  * a common object for describing both framework provided AppWidgets as well as custom widgets

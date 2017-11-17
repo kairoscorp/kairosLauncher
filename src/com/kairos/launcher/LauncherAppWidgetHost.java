@@ -26,6 +26,14 @@ import android.view.LayoutInflater;
 import java.util.ArrayList;
 
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class that handles the widget hosting problems. Like provider changing, upgrades etc.
+ * Ot also creates the widgetHostView
+ ----------------------------------------------------------------*/
+
 /**
  * Specific {@link AppWidgetHost} that creates our {@link LauncherAppWidgetHostView}
  * which correctly captures all long-press events. This ensures that users can

@@ -5,6 +5,14 @@ import android.graphics.drawable.Drawable;
 
 import java.util.Locale;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class used by IconCache to fetch app icons.
+ * Also used to return the location (Country) to test if Icons are still valid in Cache.
+ ----------------------------------------------------------------*/
+
 public class IconProvider {
 
     private static final boolean DBG = false;

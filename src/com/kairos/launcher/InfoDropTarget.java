@@ -29,6 +29,14 @@ import android.widget.Toast;
 import com.kairos.launcher.compat.LauncherAppsCompat;
 import com.kairos.launcher.util.Themes;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Handles the app info drop target only available on delevoper mode.
+ * When dragging a app to this option opens up app info.
+ ----------------------------------------------------------------*/
+
 public class InfoDropTarget extends UninstallDropTarget {
 
     private static final String TAG = "InfoDropTarget";

@@ -4,6 +4,16 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Central list of files the Launcher writes to the application data directory.
+ *
+ * To add a new Launcher file, create a String constant referring to the filename, and add it to
+ * ALL_FILES, as shown below.
+ ----------------------------------------------------------------*/
+
 /**
  * Central list of files the Launcher writes to the application data directory.
  *

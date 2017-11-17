@@ -96,6 +96,15 @@ import java.util.Set;
 import java.util.concurrent.CancellationException;
 import java.util.concurrent.Executor;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Maintains in-memory state of the Launcher. It is expected that there should be only one
+ * LauncherModel object held in a static. Also provide APIs for updating the database state
+ * for the Launcher.
+ ----------------------------------------------------------------*/
+
 /**
  * Maintains in-memory state of the Launcher. It is expected that there should be only one
  * LauncherModel object held in a static. Also provide APIs for updating the database state

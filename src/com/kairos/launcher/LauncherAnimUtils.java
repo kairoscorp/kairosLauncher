@@ -28,6 +28,14 @@ import android.view.ViewTreeObserver;
 import java.util.HashSet;
 import java.util.WeakHashMap;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class containing a series of animation utility functions.
+ * It listens for animations and acts when needed.
+ ----------------------------------------------------------------*/
+
 public class LauncherAnimUtils {
     static WeakHashMap<Animator, Object> sAnimators = new WeakHashMap<Animator, Object>();
     static Animator.AnimatorListener sEndAnimListener = new Animator.AnimatorListener() {

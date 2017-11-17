@@ -54,6 +54,16 @@ import com.kairos.launcher.util.Thunk;
 
 import java.util.ArrayList;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * An abstraction of the original Workspace which supports browsing through a
+ * sequential list of "pages"
+ *
+ * It seems to only be uses nao for static values.
+ ----------------------------------------------------------------*/
+
 /**
  * An abstraction of the original Workspace which supports browsing through a
  * sequential list of "pages"

@@ -30,6 +30,13 @@ import com.kairos.launcher.userevent.nano.LauncherLogProto;
 import static com.kairos.launcher.Workspace.State.NORMAL;
 import static com.kairos.launcher.Workspace.State.OVERVIEW;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Manages the animations that play as the user pinches to/from overview mode.
+ ----------------------------------------------------------------*/
+
 /**
  * Manages the animations that play as the user pinches to/from overview mode.
  *

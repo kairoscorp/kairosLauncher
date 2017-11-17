@@ -28,6 +28,13 @@ import com.kairos.launcher.folder.FolderPagedView;
 import com.kairos.launcher.util.FocusLogic;
 import com.kairos.launcher.util.Thunk;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class that handles keyboard navigation.
+ ----------------------------------------------------------------*/
+
 /**
  * A keyboard listener we set on all the workspace icons.
  */

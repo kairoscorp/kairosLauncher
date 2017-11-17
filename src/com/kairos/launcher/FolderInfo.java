@@ -23,6 +23,13 @@ import com.kairos.launcher.util.ContentWriter;
 
 import java.util.ArrayList;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Entity class for Folder information. has methods to add and remove items from folders. Does not save to DB.
+ ----------------------------------------------------------------*/
+
 /**
  * Represents a folder containing shortcuts or apps.
  */

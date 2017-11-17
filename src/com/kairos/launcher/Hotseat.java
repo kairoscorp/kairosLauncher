@@ -40,6 +40,14 @@ import com.kairos.launcher.logging.UserEventDispatcher;
 import com.kairos.launcher.util.Themes;
 import com.kairos.launcher.userevent.nano.LauncherLogProto;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * The HotSeat is the bar that extends to all apps. Has a set amount of VIP apps.
+ * This Class uses a CellLayout to handle the hotseat.
+ ----------------------------------------------------------------*/
+
 public class Hotseat extends FrameLayout
         implements UserEventDispatcher.LogContainerProvider {
 

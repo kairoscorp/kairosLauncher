@@ -25,6 +25,14 @@ import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.List;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class that determines what apps and widgets to put on all apps, favorites etc.
+ * It acts has a parser to determine which components are valid and enforce business rules.
+ ----------------------------------------------------------------*/
+
 /**
  * Implements the layout parser with rules for internal layouts and partner layouts.
  */

@@ -34,6 +34,13 @@ import android.util.SparseArray;
 
 import com.kairos.launcher.graphics.IconPalette;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * An optimization of Drawable.
+ ----------------------------------------------------------------*/
+
 public class FastBitmapDrawable extends Drawable {
 
     private static final int[] STATE_PRESSED = new int[] {android.R.attr.state_pressed};
