@@ -52,9 +52,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Utility class to import data from another Launcher which is based on Launcher3 schema.
- */
+ ----------------------------------------------------------------*/
 public class ImportDataTask {
 
     public static final String KEY_DATA_IMPORT_SRC_PKG = "data_import_src_pkg";

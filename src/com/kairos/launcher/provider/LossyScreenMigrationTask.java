@@ -31,10 +31,13 @@ import com.kairos.launcher.LauncherSettings;
 
 import java.util.ArrayList;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * An extension of {@link GridSizeMigrationTask} which migrates only one screen and
  * deletes all carry-forward items.
- */
+ ----------------------------------------------------------------*/
 public class LossyScreenMigrationTask extends GridSizeMigrationTask {
 
     private final SQLiteDatabase mDb;

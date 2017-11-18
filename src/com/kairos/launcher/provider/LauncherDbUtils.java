@@ -29,9 +29,12 @@ import com.kairos.launcher.logging.FileLog;
 
 import java.util.ArrayList;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A set of utility methods for Launcher DB used for DB updates and migration.
- */
+ ----------------------------------------------------------------*/
 public class LauncherDbUtils {
 
     private static final String TAG = "LauncherDbUtils";

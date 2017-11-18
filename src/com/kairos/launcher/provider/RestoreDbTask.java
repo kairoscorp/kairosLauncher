@@ -31,12 +31,15 @@ import com.kairos.launcher.util.LogConfig;
 
 import java.io.InvalidObjectException;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Utility class to update DB schema after it has been restored.
  *
  * This task is executed when Launcher starts for the first time and not immediately after restore.
  * This helps keep the model consistent if the launcher updates between restore and first startup.
- */
+ ----------------------------------------------------------------*/
 public class RestoreDbTask {
 
     private static final String TAG = "RestoreDbTask";
