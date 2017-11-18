@@ -37,9 +37,12 @@ import com.kairos.launcher.util.Provider;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Task to add auto-created workspace items.
- */
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * used when needed to auto-create workspace items
+ ----------------------------------------------------------------*/
 public class AddWorkspaceItemsTask extends ExtendedModelTask {
 
     private final Provider<List<ItemInfo>> mAppsProvider;

@@ -13,11 +13,14 @@ import com.kairos.launcher.util.ComponentKey;
 
 import java.text.Collator;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * An wrapper over various items displayed in a widget picker,
  * {@link LauncherAppWidgetProviderInfo} & {@link ActivityInfo}. This provides easier access to
  * common attributes like spanX and spanY.
- */
+ ----------------------------------------------------------------*/
 public class WidgetItem extends ComponentKey implements Comparable<WidgetItem> {
 
     private static UserHandle sMyUserHandle;

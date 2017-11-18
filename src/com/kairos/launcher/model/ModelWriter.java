@@ -40,9 +40,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.concurrent.Executor;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Class for handling model updates.
- */
+ ----------------------------------------------------------------*/
 public class ModelWriter {
 
     private static final String TAG = "ModelWriter";

@@ -24,9 +24,12 @@ import com.kairos.launcher.LauncherModel;
 
 import java.util.ArrayList;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Extension of {@link LauncherModel.BaseModelUpdateTask} with some utility methods
- */
+ ----------------------------------------------------------------*/
 public abstract class ExtendedModelTask extends LauncherModel.BaseModelUpdateTask {
 
     public void bindUpdatedShortcuts(

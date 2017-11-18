@@ -35,9 +35,12 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Task to handle changing of lock state of the user
- */
+ ----------------------------------------------------------------*/
 public class UserLockStateChangedTask extends ExtendedModelTask {
 
     private final UserHandle mUser;

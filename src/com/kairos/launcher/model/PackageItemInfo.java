@@ -18,9 +18,12 @@ package com.kairos.launcher.model;
 
 import com.kairos.launcher.ItemInfoWithIcon;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Represents a {@link Package} in the widget tray section.
- */
+ ----------------------------------------------------------------*/
 public class PackageItemInfo extends ItemInfoWithIcon {
 
     /**

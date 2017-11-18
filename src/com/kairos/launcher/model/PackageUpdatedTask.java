@@ -49,10 +49,13 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Handles updates due to changes in package manager (app installed/updated/removed)
  * or when a user availability changes.
- */
+ ----------------------------------------------------------------*/
 public class PackageUpdatedTask extends ExtendedModelTask {
 
     private static final boolean DEBUG = false;

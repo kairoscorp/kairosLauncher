@@ -30,13 +30,16 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Map.Entry;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Helper class to re-query app status when SD-card becomes available.
  *
  * During first load, just after reboot, some apps on sdcard might not be available immediately due
  * to some race conditions in the system. We wait for ACTION_BOOT_COMPLETED and process such
  * apps again.
- */
+ ----------------------------------------------------------------*/
 public class SdCardAvailableReceiver extends BroadcastReceiver {
 
     private final LauncherModel mModel;

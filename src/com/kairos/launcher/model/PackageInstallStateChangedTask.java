@@ -27,9 +27,12 @@ import com.kairos.launcher.LauncherModel;
 
 import java.util.HashSet;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Handles changes due to a sessions updates for a currently installing app.
- */
+ ----------------------------------------------------------------*/
 public class PackageInstallStateChangedTask extends ExtendedModelTask {
 
     private final PackageInstallerCompat.PackageInstallInfo mInstallInfo;

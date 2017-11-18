@@ -27,11 +27,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 
-/**
- * Widgets data model that is used by the adapters of the widget views and controllers.
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  *
+ * Widgets data model that is used by the adapters of the widget views and controllers.
  * <p> The widgets and shortcuts are organized using package name as its index.
- */
+ ----------------------------------------------------------------*/
 public class WidgetsModel {
 
     private static final String TAG = "WidgetsModel";

@@ -36,10 +36,13 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Locale;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * This class takes care of shrinking the workspace (by maximum of one row and one column), as a
  * result of restoring from a larger device or device density change.
- */
+ ----------------------------------------------------------------*/
 public class GridSizeMigrationTask {
 
     public static boolean ENABLED = Utilities.ATLEAST_NOUGAT;

@@ -23,16 +23,21 @@ import com.kairos.launcher.AppInfo;
 import com.kairos.launcher.IconCache;
 import com.kairos.launcher.ItemInfo;
 import com.kairos.launcher.LauncherAppState;
+import com.kairos.launcher.LauncherModel;
 import com.kairos.launcher.LauncherSettings;
 import com.kairos.launcher.ShortcutInfo;
-import com.kairos.launcher.LauncherModel;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 
-/**
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Handles changes due to cache updates.
- */
+ ----------------------------------------------------------------*/
 public class CacheDataUpdatedTask extends ExtendedModelTask {
 
     public static final int OP_CACHE_UPDATE = 1;

@@ -49,8 +49,14 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * All the data stored in-memory and managed by the LauncherModel
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Manage the data stored in-memory and managed by the LauncherModel
+ ----------------------------------------------------------------*/
 public class BgDataModel {
 
     private static final String TAG = "BgDataModel";

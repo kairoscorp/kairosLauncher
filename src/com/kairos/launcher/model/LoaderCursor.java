@@ -54,9 +54,12 @@ import java.net.URISyntaxException;
 import java.security.InvalidParameterException;
 import java.util.ArrayList;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Extension of {@link Cursor} with utility methods for workspace loading.
- */
+ ----------------------------------------------------------------*/
 public class LoaderCursor extends CursorWrapper {
 
     private static final String TAG = "LoaderCursor";
