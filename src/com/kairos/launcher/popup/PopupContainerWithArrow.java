@@ -81,9 +81,12 @@ import static com.kairos.launcher.userevent.nano.LauncherLogProto.ContainerType;
 import static com.kairos.launcher.userevent.nano.LauncherLogProto.ItemType;
 import static com.kairos.launcher.userevent.nano.LauncherLogProto.Target;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A container for shortcuts to deep links within apps.
- */
+ ----------------------------------------------------------------*/
 @TargetApi(Build.VERSION_CODES.N)
 public class PopupContainerWithArrow extends AbstractFloatingView implements DragSource,
         DragController.DragListener {

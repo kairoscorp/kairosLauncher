@@ -18,12 +18,15 @@ import com.kairos.launcher.widget.WidgetsBottomSheet;
 
 import java.util.List;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Represents a system shortcut for a given app. The shortcut should have a static label and
  * icon, and an onClickListener that depends on the item that the shortcut services.
  *
  * Example system shortcuts, defined as inner classes, include Widgets and AppInfo.
- */
+ ----------------------------------------------------------------*/
 public abstract class SystemShortcut {
     private final int mIconResId;
     private final int mLabelResId;

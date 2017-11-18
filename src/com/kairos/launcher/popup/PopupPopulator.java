@@ -45,10 +45,13 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Contains logic relevant to populating a {@link PopupContainerWithArrow}. In particular,
  * this class determines which items appear in the container, and in what order.
- */
+ ----------------------------------------------------------------*/
 public class PopupPopulator {
 
     public static final int MAX_ITEMS = 4;

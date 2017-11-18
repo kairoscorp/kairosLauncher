@@ -36,10 +36,13 @@ import com.kairos.launcher.LogAccelerateInterpolator;
 import com.kairos.launcher.Utilities;
 import com.kairos.launcher.util.PillRevealOutlineProvider;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * An abstract {@link FrameLayout} that supports animating an item's content
  * (e.g. icon and text) separate from the item's background.
- */
+ ----------------------------------------------------------------*/
 public abstract class PopupItemView extends FrameLayout
         implements ValueAnimator.AnimatorUpdateListener {
 

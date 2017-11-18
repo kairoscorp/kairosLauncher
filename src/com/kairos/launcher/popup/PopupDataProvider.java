@@ -41,9 +41,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Provides data for the popup menu that appears after long-clicking on apps.
- */
+ ----------------------------------------------------------------*/
 public class PopupDataProvider implements NotificationListener.NotificationsChangedListener {
 
     private static final boolean LOGD = false;
