@@ -34,6 +34,11 @@ import com.kairos.launcher.util.PackageUserKey;
 import java.util.HashMap;
 import java.util.List;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Gets All Information about the widgets installed
+ ----------------------------------------------------------------*/
 public abstract class AppWidgetManagerCompat {
 
     private static final Object sInstanceLock = new Object();

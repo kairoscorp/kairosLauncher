@@ -23,7 +23,11 @@ import android.support.annotation.Nullable;
 import com.kairos.launcher.util.PackageUserKey;
 
 import java.util.List;
-
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Gets All Information about the widgets installed (OREO)
+ ----------------------------------------------------------------*/
 class AppWidgetManagerCompatVO extends AppWidgetManagerCompatVL {
 
     AppWidgetManagerCompatVO(Context context) {

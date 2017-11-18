@@ -20,7 +20,11 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
 import android.os.UserHandle;
-
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Manages apps for different users (Nougat)
+ ----------------------------------------------------------------*/
 @TargetApi(Build.VERSION_CODES.N)
 public class UserManagerCompatVN extends UserManagerCompatVM {
 

@@ -19,7 +19,11 @@ package com.kairos.launcher.compat;
 import android.content.Context;
 
 import java.util.HashMap;
-
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Adds App after instaling
+ ----------------------------------------------------------------*/
 public abstract class PackageInstallerCompat {
 
     public static final int STATUS_INSTALLED = 0;

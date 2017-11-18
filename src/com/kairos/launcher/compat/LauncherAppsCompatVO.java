@@ -34,7 +34,11 @@ import com.kairos.launcher.util.PackageUserKey;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
-
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Gets All Information about the APPS on the homescreen (OREO)
+ ----------------------------------------------------------------*/
 @TargetApi(26)
 public class LauncherAppsCompatVO extends LauncherAppsCompatVL {
 

@@ -36,7 +36,11 @@ import com.kairos.launcher.util.LooperExecuter;
 import com.kairos.launcher.util.PackageUserKey;
 
 import java.util.List;
-
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Gets All Information about the APPS on the homescreen
+ ----------------------------------------------------------------*/
 public abstract class LauncherAppsCompat {
 
     public interface OnAppsChangedCallbackCompat {

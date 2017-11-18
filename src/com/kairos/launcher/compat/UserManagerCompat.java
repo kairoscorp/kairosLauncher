@@ -22,7 +22,11 @@ import android.os.UserHandle;
 import com.kairos.launcher.Utilities;
 
 import java.util.List;
-
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Manages apps for different users
+ ----------------------------------------------------------------*/
 public abstract class UserManagerCompat {
     protected UserManagerCompat() {
     }

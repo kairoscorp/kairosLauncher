@@ -37,6 +37,11 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Gets All Information about the widgets installed  (Lolipop)
+ ----------------------------------------------------------------*/
 class AppWidgetManagerCompatVL extends AppWidgetManagerCompat {
 
     private final UserManager mUserManager;

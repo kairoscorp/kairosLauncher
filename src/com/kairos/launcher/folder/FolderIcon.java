@@ -86,7 +86,6 @@ import java.util.List;
  * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
  * Copyright (c) 2017 KAIROS
  * An icon that can appear on in the workspace representing an {@link Folder} i
- * icon folder generator
 
  ----------------------------------------------------------------*/
 public class FolderIcon extends FrameLayout implements FolderInfo.FolderListener {

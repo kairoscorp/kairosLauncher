@@ -31,7 +31,11 @@ import com.kairos.launcher.LauncherModel;
 import com.kairos.launcher.util.Thunk;
 
 import java.util.HashMap;
-
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Adds App after instaling  (Lolipop)
+ ----------------------------------------------------------------*/
 public class PackageInstallerCompatVL extends PackageInstallerCompat {
 
     @Thunk final SparseArray<String> mActiveSessions = new SparseArray<>();

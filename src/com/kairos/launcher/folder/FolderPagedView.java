@@ -50,6 +50,12 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Folder View
+
+ ----------------------------------------------------------------*/
 public class FolderPagedView extends PagedView {
 
     private static final String TAG = "FolderPagedView";
