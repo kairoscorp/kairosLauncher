@@ -38,10 +38,13 @@ import android.view.animation.OvershootInterpolator;
 import com.kairos.launcher.Utilities;
 import com.kairos.launcher.util.Themes;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * {@link PageIndicator} which shows dots per page. The active page is shown with the current
  * accent color.
- */
+ ----------------------------------------------------------------*/
 public class PageIndicatorDots extends PageIndicator {
 
     private static final float SHIFT_PER_ANIMATION = 0.5f;

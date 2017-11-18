@@ -28,6 +28,12 @@ import com.kairos.launcher.util.Themes;
 
 import android.graphics.drawable.Drawable;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Used to animate the Caret in {@link com.kairos.launcher.allapps.AllAppsCaretController}
+ ----------------------------------------------------------------*/
 public class CaretDrawable extends Drawable {
     public static final float PROGRESS_CARET_POINTING_UP = -1f;
     public static final float PROGRESS_CARET_POINTING_DOWN = 1f;

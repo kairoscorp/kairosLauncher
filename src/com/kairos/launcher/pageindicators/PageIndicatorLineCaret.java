@@ -23,11 +23,14 @@ import com.kairos.launcher.R;
 import com.kairos.launcher.Utilities;
 import com.kairos.launcher.dynamicui.ExtractedColors;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A PageIndicator that briefly shows a fraction of a line when moving between pages.
  *
  * The fraction is 1 / number of pages and the position is based on the progress of the page scroll.
- */
+ ----------------------------------------------------------------*/
 public class PageIndicatorLineCaret extends PageIndicator {
     private static final String TAG = "PageIndicatorLine";
 

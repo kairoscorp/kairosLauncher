@@ -22,9 +22,12 @@ import android.widget.FrameLayout;
 
 import com.kairos.launcher.dynamicui.ExtractedColors;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Base class for a page indicator.
- */
+ ----------------------------------------------------------------*/
 public abstract class PageIndicator extends FrameLayout {
     private CaretDrawable mCaretDrawable;
 

@@ -22,11 +22,14 @@ import android.util.AttributeSet;
 
 import com.kairos.launcher.Launcher;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Simply draws the caret drawable bottom-right aligned in the view. This ensures that we can have
  * a view with as large an area as we want (for touching) while maintaining a caret of size
  * all_apps_caret_size.  Used only for the landscape layout.
- */
+ ----------------------------------------------------------------*/
 public class PageIndicatorCaretLandscape extends PageIndicator {
     // all apps pull up handle drawable.
 
