@@ -36,9 +36,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Performs operations related to deep shortcuts, such as querying for them, pinning them, etc.
- */
+ ----------------------------------------------------------------*/
 public class DeepShortcutManager {
     private static final String TAG = "DeepShortcutManager";
 

@@ -28,9 +28,12 @@ import com.kairos.launcher.Launcher;
 import com.kairos.launcher.Utilities;
 import com.kairos.launcher.graphics.DragPreviewProvider;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Extension of {@link DragPreviewProvider} which generates bitmaps scaled to the default icon size.
- */
+ ----------------------------------------------------------------*/
 public class ShortcutDragPreviewProvider extends DragPreviewProvider {
 
     private final Point mPositionShift;

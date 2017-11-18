@@ -24,11 +24,14 @@ import android.util.LruCache;
 import java.util.HashMap;
 import java.util.List;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Loads {@link ShortcutInfoCompat}s on demand (e.g. when launcher
  * loads for pinned shortcuts and on long-press for dynamic shortcuts), and caches them
  * for handful of apps in an LruCache while launcher lives.
- */
+ ----------------------------------------------------------------*/
 @TargetApi(Build.VERSION_CODES.N)
 public class ShortcutCache {
     private static final String TAG = "ShortcutCache";

@@ -26,9 +26,12 @@ import android.view.MotionEvent;
 import com.kairos.launcher.BubbleTextView;
 import com.kairos.launcher.Utilities;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A {@link BubbleTextView} that has the shortcut icon on the left and drag handle on the right.
- */
+ ----------------------------------------------------------------*/
 public class DeepShortcutTextView extends BubbleTextView {
     private final Rect mDragHandleBounds = new Rect();
     private final int mDragHandleWidth;

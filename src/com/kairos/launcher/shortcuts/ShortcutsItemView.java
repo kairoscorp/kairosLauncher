@@ -45,10 +45,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A {@link PopupItemView} that contains all of the {@link DeepShortcutView}s for an app,
  * as well as the system shortcuts such as Widgets and App Info.
- */
+ ----------------------------------------------------------------*/
 public class ShortcutsItemView extends PopupItemView implements View.OnLongClickListener,
         View.OnTouchListener, UserEventDispatcher.LogContainerProvider {
 

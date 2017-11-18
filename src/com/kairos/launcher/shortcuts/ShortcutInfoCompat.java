@@ -23,11 +23,14 @@ import android.content.pm.ShortcutInfo;
 import android.os.Build;
 import android.os.UserHandle;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Wrapper class for {@link android.content.pm.ShortcutInfo}, representing deep shortcuts into apps.
  *
  * Not to be confused with {@link com.kairos.launcher.ShortcutInfo}.
- */
+ ----------------------------------------------------------------*/
 @TargetApi(Build.VERSION_CODES.N)
 public class ShortcutInfoCompat {
     private static final String INTENT_CATEGORY = "com.android.launcher3.DEEP_SHORTCUT";

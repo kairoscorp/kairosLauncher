@@ -29,10 +29,13 @@ import com.kairos.launcher.Launcher;
 import com.kairos.launcher.ShortcutInfo;
 import com.kairos.launcher.Utilities;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A {@link android.widget.FrameLayout} that contains a {@link DeepShortcutView}.
  * This lets us animate the DeepShortcutView (icon and text) separately from the background.
- */
+ ----------------------------------------------------------------*/
 public class DeepShortcutView extends FrameLayout {
 
     private static final Point sTempPoint = new Point();

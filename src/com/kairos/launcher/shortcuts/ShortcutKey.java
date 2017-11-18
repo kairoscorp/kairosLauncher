@@ -7,9 +7,12 @@ import android.os.UserHandle;
 import com.kairos.launcher.ItemInfo;
 import com.kairos.launcher.util.ComponentKey;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A key that uniquely identifies a shortcut using its package, id, and user handle.
- */
+ ----------------------------------------------------------------*/
 public class ShortcutKey extends ComponentKey {
 
     public ShortcutKey(String packageName, UserHandle user, String id) {
