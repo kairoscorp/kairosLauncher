@@ -36,6 +36,13 @@ import com.kairos.launcher.config.FeatureFlags;
 import com.kairos.launcher.dragndrop.DragLayer;
 import com.kairos.launcher.util.Thunk;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Classes that implement animations for workspace transitions
+ ----------------------------------------------------------------*/
+
 /**
  * A convenience class to update a view's visibility state after an alpha animation.
  */

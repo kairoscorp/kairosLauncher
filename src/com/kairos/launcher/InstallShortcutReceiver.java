@@ -58,6 +58,13 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Synchronized queue for app installation.
+ ----------------------------------------------------------------*/
+
 public class InstallShortcutReceiver extends BroadcastReceiver {
     private static final String TAG = "InstallShortcutReceiver";
     private static final boolean DBG = false;

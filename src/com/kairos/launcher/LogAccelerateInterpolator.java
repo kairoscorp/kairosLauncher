@@ -2,6 +2,13 @@ package com.kairos.launcher;
 
 import android.animation.TimeInterpolator;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Defines the rate of change of a animation. Optimization of standard TimeInterpolator for animation acceleration
+ ----------------------------------------------------------------*/
+
 public class LogAccelerateInterpolator implements TimeInterpolator {
 
     int mBase;

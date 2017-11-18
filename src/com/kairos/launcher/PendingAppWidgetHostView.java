@@ -37,6 +37,13 @@ import com.kairos.launcher.graphics.DrawableFactory;
 import com.kairos.launcher.model.PackageItemInfo;
 import com.kairos.launcher.util.Themes;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Temporary view for a widget while it is being setup.
+ ----------------------------------------------------------------*/
+
 public class PendingAppWidgetHostView extends LauncherAppWidgetHostView
         implements OnClickListener, ItemInfoUpdateReceiver {
     private static final float SETUP_ICON_SIZE_FACTOR = 2f / 5;

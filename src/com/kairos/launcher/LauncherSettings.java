@@ -24,6 +24,13 @@ import android.provider.BaseColumns;
 
 import com.kairos.launcher.config.ProviderConfig;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ *
+ ----------------------------------------------------------------*/
+
 /**
  * Settings related utilities.
  */

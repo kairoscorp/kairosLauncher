@@ -21,6 +21,13 @@ import android.view.View;
 import com.kairos.launcher.DropTarget.DragObject;
 import com.kairos.launcher.logging.UserEventDispatcher.LogContainerProvider;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Interface that defines objects that can be dragged.
+ ----------------------------------------------------------------*/
+
 /**
  * Interface defining an object that can originate a drag.
  */

@@ -69,6 +69,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ ----------------------------------------------------------------*/
+
 public class LauncherProvider extends ContentProvider {
     private static final String TAG = "LauncherProvider";
     private static final boolean LOGD = false;

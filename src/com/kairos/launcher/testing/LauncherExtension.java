@@ -22,6 +22,19 @@ import java.util.List;
  * This class represents a very trivial LauncherExtension. It primarily serves as a simple
  * class to exercise the LauncherOverlay interface.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class extends the Launcher class and, therefore, allow the addition of
+ * new functionalities.
+ * More precisely, the nested class LauncherExtensionCallbacks implements
+ * the interface LauncherCallbacks which provides method signatures to add
+ * functionality, react to user interaction, etc.
+ * (see comments in the beginning of the LauncherCallbacks file).
+ ----------------------------------------------------------------*/
+
 public class LauncherExtension extends Launcher {
 
     //------ Activity methods -------//

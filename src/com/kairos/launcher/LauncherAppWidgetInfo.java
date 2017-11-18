@@ -23,6 +23,13 @@ import android.os.Process;
 
 import com.kairos.launcher.util.ContentWriter;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Entity class for a widget
+ ----------------------------------------------------------------*/
+
 /**
  * Represents a widget (either instantiated or about to be) in the Launcher.
  */

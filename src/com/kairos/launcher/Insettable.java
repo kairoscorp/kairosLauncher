@@ -18,6 +18,14 @@ package com.kairos.launcher;
 
 import android.graphics.Rect;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Interface to mark a class as Insettable.
+ * In order to make it so that it does not draw undearneath system bars
+ ----------------------------------------------------------------*/
+
 /**
  * Allows the implementing {@link View} to not draw underneath system bars.
  * e.g., notification bar on top and home key area on the bottom.

@@ -29,6 +29,17 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * LauncherCallbacks is an interface used to extend the Launcher activity. It includes many hooks
+ * in order to add additional functionality. Some of these are very general, and give extending
+ * classes the ability to react to Activity life-cycle or specific user interactions. Others
+ * are more specific and relate to replacing parts of the application, for example, the search
+ * interface or the wallpaper picker.
+ ----------------------------------------------------------------*/
+
 /**
  * LauncherCallbacks is an interface used to extend the Launcher activity. It includes many hooks
  * in order to add additional functionality. Some of these are very general, and give extending

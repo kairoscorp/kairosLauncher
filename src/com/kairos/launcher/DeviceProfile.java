@@ -35,6 +35,14 @@ import com.kairos.launcher.config.FeatureFlags;
 
 import java.util.ArrayList;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class that handles the layout of the laucher. Meaning the size that everything should be.
+ * And how everything fits together. Does a lot of calculation based on pre-set values.
+ ----------------------------------------------------------------*/
+
 public class DeviceProfile {
 
     public interface LauncherLayoutChangeListener {

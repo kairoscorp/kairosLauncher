@@ -21,6 +21,13 @@ import android.graphics.Rect;
 import com.kairos.launcher.accessibility.DragViewStateAnnouncer;
 import com.kairos.launcher.dragndrop.DragView;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Interface that defines objects that can receive a dragged object
+ ----------------------------------------------------------------*/
+
 /**
  * Interface defining an object that can receive a drag.
  *

@@ -24,6 +24,13 @@ import android.view.ViewConfiguration;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Implementation of a scroller tha allows to change Interpolator post-construction.
+ ----------------------------------------------------------------*/
+
 /**
  * This class differs from the framework {@link android.widget.Scroller} in that
  * you can modify the Interpolator post-construction.

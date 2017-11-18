@@ -39,6 +39,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Calculates a series of static values related to size of thing on screen depending on the profile of the divice.
+ * Meaning size of screen, resolution etc.
+ ----------------------------------------------------------------*/
+
 public class InvariantDeviceProfile {
 
     // This is a static that we use for the default icon size on a 4/5-inch phone

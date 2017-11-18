@@ -35,6 +35,13 @@ import com.kairos.launcher.util.TestingUtils;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class that holds the current state of the launcher. Including all the caches and models.
+ ----------------------------------------------------------------*/
+
 public class LauncherAppState {
 
     public static final boolean PROFILE_STARTUP = ProviderConfig.IS_DOGFOOD_BUILD;

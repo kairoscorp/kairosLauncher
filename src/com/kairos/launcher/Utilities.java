@@ -68,6 +68,13 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Various utilities shared amongst the Launcher's classes.
+ ----------------------------------------------------------------*/
+
 /**
  * Various utilities shared amongst the Launcher's classes.
  */

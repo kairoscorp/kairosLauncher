@@ -22,6 +22,13 @@ import android.view.KeyEvent;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * The edit text that reports back when the back key has been pressed.
+ * (Cant figure out the purpose of this)
+ ----------------------------------------------------------------*/
 
 /**
  * The edit text that reports back when the back key has been pressed.

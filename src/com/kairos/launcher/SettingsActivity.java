@@ -30,6 +30,13 @@ import android.support.v4.os.BuildCompat;
 
 import com.kairos.launcher.graphics.IconShapeOverride;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Settings activity for Launcher. Currently implements the following setting: Allow rotation
+ ----------------------------------------------------------------*/
+
 /**
  * Settings activity for Launcher. Currently implements the following setting: Allow rotation
  */
