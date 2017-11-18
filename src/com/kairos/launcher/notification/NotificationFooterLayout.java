@@ -47,6 +47,8 @@ import java.util.List;
  * A {@link FrameLayout} that contains only icons of notifications.
  * If there are more than {@link #MAX_FOOTER_NOTIFICATIONS} icons, we add a "..." overflow.
  */
+
+
 public class NotificationFooterLayout extends FrameLayout {
 
     public interface IconAnimationEndListener {

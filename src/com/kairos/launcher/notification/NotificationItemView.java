@@ -38,12 +38,14 @@ import com.kairos.launcher.userevent.nano.LauncherLogProto;
 
 import java.util.List;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A {@link FrameLayout} that contains a header, main view and a footer.
  * The main view contains the icon and text (title + subtext) of the first notification.
  * The footer contains: A list of just the icons of all the notifications past the first one.
- * @see NotificationFooterLayout
- */
+ ----------------------------------------------------------------*/
 public class NotificationItemView extends PopupItemView implements LogContainerProvider {
 
     private static final Rect sTempRect = new Rect();

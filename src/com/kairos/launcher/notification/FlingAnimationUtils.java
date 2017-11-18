@@ -22,11 +22,13 @@ import android.view.ViewPropertyAnimator;
 import android.view.animation.Interpolator;
 import android.view.animation.PathInterpolator;
 
-/**
- * Utility class to calculate general fling animation when the finger is released.
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  *
+ * Utility class to calculate general fling animation when the finger is released.
  * This class was copied from com.android.systemui.statusbar.
- */
+ ----------------------------------------------------------------*/
 public class FlingAnimationUtils {
 
     private static final float LINEAR_OUT_SLOW_IN_X2 = 0.35f;

@@ -19,11 +19,14 @@ package com.kairos.launcher.notification;
 import android.view.animation.Interpolator;
 import android.view.animation.PathInterpolator;
 
-/**
- * Utility class to receive interpolators from.
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  *
+ * Utility class to receive interpolators from.
  * This class was copied from com.android.systemui.
- */
+ * used at {@link FlingAnimationUtils}
+ ----------------------------------------------------------------*/
 public class Interpolators {
     public static final Interpolator FAST_OUT_SLOW_IN = new PathInterpolator(0.4f, 0f, 0.2f, 1f);
     public static final Interpolator FAST_OUT_LINEAR_IN = new PathInterpolator(0.4f, 0f, 1f, 1f);

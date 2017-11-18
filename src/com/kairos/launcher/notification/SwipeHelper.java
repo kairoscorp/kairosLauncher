@@ -33,9 +33,13 @@ import android.view.accessibility.AccessibilityEvent;
 
 import java.util.HashMap;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * This class was copied from com.android.systemui.
- */
+ * Used from when a notification item view is swiped
+ ----------------------------------------------------------------*/
 public class SwipeHelper {
     static final String TAG = "SwipeHelper";
     private static final boolean DEBUG = false;

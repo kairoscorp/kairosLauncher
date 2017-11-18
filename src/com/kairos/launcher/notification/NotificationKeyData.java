@@ -23,12 +23,14 @@ import android.support.annotation.NonNull;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * The key data associated with the notification, used to determine what to include
  * in badges and dummy popup views before they are populated.
- *
  * @see NotificationInfo for the full data used when populating the dummy views.
- */
+----------------------------------------------------------------*/
 public class NotificationKeyData {
     public final String notificationKey;
     public final String shortcutId;

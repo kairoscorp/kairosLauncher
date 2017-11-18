@@ -34,13 +34,16 @@ import com.kairos.launcher.graphics.IconPalette;
 import com.kairos.launcher.popup.PopupContainerWithArrow;
 import com.kairos.launcher.util.PackageUserKey;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * An object that contains relevant information from a {@link StatusBarNotification}. This should
  * only be created when we need to show the notification contents on the UI; until then, a
  * {@link BadgeInfo} with only the notification key should
  * be passed around, and then this can be constructed using the StatusBarNotification from
  * {@link NotificationListener#getNotificationsForKeys(java.util.List)}.
- */
+ ----------------------------------------------------------------*/
 public class NotificationInfo implements View.OnClickListener {
 
     public final PackageUserKey packageUserKey;

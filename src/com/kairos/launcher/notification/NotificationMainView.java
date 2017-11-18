@@ -35,10 +35,13 @@ import com.kairos.launcher.R;
 import com.kairos.launcher.userevent.nano.LauncherLogProto;
 import com.kairos.launcher.util.Themes;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A {@link android.widget.FrameLayout} that contains a single notification,
  * e.g. icon + title + text.
- */
+ ----------------------------------------------------------------*/
 public class NotificationMainView extends FrameLayout implements SwipeHelper.Callback {
 
     private NotificationInfo mNotificationInfo;

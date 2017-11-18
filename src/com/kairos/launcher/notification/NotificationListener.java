@@ -38,12 +38,15 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A {@link NotificationListenerService} that sends updates to its
  * {@link NotificationsChangedListener} when notifications are posted or canceled,
  * as well and when this service first connects. An instance of NotificationListener,
  * and its methods for getting notifications, can be obtained via {@link #getInstanceIfConnected()}.
- */
+ ----------------------------------------------------------------*/
 public class NotificationListener extends NotificationListenerService {
 
     private static final int MSG_NOTIFICATION_POSTED = 1;
