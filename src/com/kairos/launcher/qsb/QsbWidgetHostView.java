@@ -27,9 +27,12 @@ import android.widget.RemoteViews;
 import com.kairos.launcher.Launcher;
 import com.kairos.launcher.R;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Appwidget host view with QSB specific logic.
- */
+ ----------------------------------------------------------------*/
 public class QsbWidgetHostView extends AppWidgetHostView {
 
     @ViewDebug.ExportedProperty(category = "launcher")

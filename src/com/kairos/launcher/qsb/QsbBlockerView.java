@@ -32,9 +32,12 @@ import com.kairos.launcher.Workspace;
 import com.kairos.launcher.Workspace.OnStateChangeListener;
 import com.kairos.launcher.Workspace.State;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A simple view used to show the region blocked by QSB during drag and drop.
- */
+ ----------------------------------------------------------------*/
 public class QsbBlockerView extends View implements OnStateChangeListener {
 
     private static final int VISIBLE_ALPHA = 100;

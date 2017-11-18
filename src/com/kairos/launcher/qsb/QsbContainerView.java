@@ -42,10 +42,13 @@ import com.kairos.launcher.Utilities;
 import com.kairos.launcher.compat.AppWidgetManagerCompat;
 import com.kairos.launcher.config.FeatureFlags;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV BA :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * A frame layout which contains a QSB. This internally uses fragment to bind the view, which
  * allows it to contain the logic for {@link Fragment#startActivityForResult(Intent, int)}.
- */
+ ----------------------------------------------------------------*/
 public class QsbContainerView extends FrameLayout {
 
     public QsbContainerView(Context context) {
