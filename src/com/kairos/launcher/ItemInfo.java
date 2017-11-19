@@ -24,6 +24,13 @@ import android.os.UserHandle;
 
 import com.kairos.launcher.util.ContentWriter;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Entity class for any item in the launcher
+ ----------------------------------------------------------------*/
+
 /**
  * Represents an item in the launcher.
  */

@@ -25,6 +25,13 @@ import com.kairos.launcher.util.Thunk;
 
 import java.util.LinkedList;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * You tell this class something to run, it runs it.
+ ----------------------------------------------------------------*/
+
 /**
  * Queue of things to run on a looper thread.  Items posted with {@link #post} will not
  * be actually enqued on the handler until after the last one has run, to keep from

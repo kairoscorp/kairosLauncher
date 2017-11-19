@@ -18,6 +18,14 @@ package com.kairos.launcher;
 
 import android.content.SharedPreferences;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This interface defines the set of methods that the Launcher activity exposes. Methods
+ * here should be safe to call from classes outside of com.android.launcher3.*
+ ----------------------------------------------------------------*/
+
 /**
  * This interface defines the set of methods that the Launcher activity exposes. Methods
  * here should be safe to call from classes outside of com.android.launcher3.*

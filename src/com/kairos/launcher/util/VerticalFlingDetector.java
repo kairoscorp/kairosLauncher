@@ -22,6 +22,15 @@ import android.view.VelocityTracker;
 import android.view.View;
 import android.view.ViewConfiguration;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class defining a callback that is invoked when the corresponding view
+ * receives a touch event. In this particular case, it detects if that
+ * touch event corresponds to a vertical fling (it's like a fast swipe).
+ ----------------------------------------------------------------*/
+
 public class VerticalFlingDetector implements View.OnTouchListener {
 
     private static final float CUSTOM_SLOP_MULTIPLIER = 2.2f;

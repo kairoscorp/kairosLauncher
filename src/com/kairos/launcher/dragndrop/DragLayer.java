@@ -63,9 +63,13 @@ import com.kairos.launcher.widget.WidgetsBottomSheet;
 
 import java.util.ArrayList;
 
-/**
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * A ViewGroup that coordinates dragging across its descendants
- */
+
+ ----------------------------------------------------------------*/
 public class DragLayer extends InsettableFrameLayout {
 
     public static final int ANIMATION_END_DISAPPEAR = 0;

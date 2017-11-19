@@ -35,9 +35,12 @@ import com.kairos.launcher.userevent.nano.LauncherLogProto.ContainerType;
 
 import java.util.List;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * A RecyclerView with custom fast scroll support for the all apps view.
- */
+
+ ----------------------------------------------------------------*/
 public class AllAppsRecyclerView extends BaseRecyclerView {
 
     private AlphabeticalAppsList mApps;

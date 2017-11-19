@@ -1,5 +1,12 @@
 package com.kairos.launcher.util;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Specifies the type of an operation
+ ----------------------------------------------------------------*/
+
 public abstract class FlagOp {
 
     public static FlagOp NO_OP = new FlagOp() {};

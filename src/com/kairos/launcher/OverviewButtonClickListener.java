@@ -4,6 +4,14 @@ import android.view.View;
 
 import com.kairos.launcher.userevent.nano.LauncherLogProto.Action;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * A specialized listener for Overview buttons where both clicks and long clicks are logged
+ * handled the same via {@link #handleViewClick(View)}.
+ ----------------------------------------------------------------*/
+
 /**
  * A specialized listener for Overview buttons where both clicks and long clicks are logged
  * handled the same via {@link #handleViewClick(View)}.

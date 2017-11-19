@@ -20,6 +20,14 @@ import android.view.View;
 
 import com.kairos.launcher.util.Thunk;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class that listens to presses and checks if it's a longpress.
+ * Important for dragging and dropping
+ ----------------------------------------------------------------*/
+
 public class CheckLongPressHelper {
 
     public static final int DEFAULT_LONG_PRESS_TIMEOUT = 300;

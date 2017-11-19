@@ -39,6 +39,12 @@ import com.kairos.launcher.util.Thunk;
 
 import java.util.Arrays;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * View to Drag Items
+
+ ----------------------------------------------------------------*/
 public class DragView extends View {
     public static final int COLOR_CHANGE_DURATION = 120;
     public static final int VIEW_ZOOM_DURATION = 150;

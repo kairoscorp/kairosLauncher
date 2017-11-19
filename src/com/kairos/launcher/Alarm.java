@@ -19,6 +19,16 @@ package com.kairos.launcher;
 import android.os.Handler;
 import android.os.SystemClock;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class to set/cancel alarms.
+ * Run method is executed when the delay specified in postDelayed (method of mHandler)
+ * elapses.
+ * onAlarm method (from OnAlarmListener) defines the action of the alarm.
+ ----------------------------------------------------------------*/
+
 public class Alarm implements Runnable{
     // if we reach this time and the alarm hasn't been cancelled, call the listener
     private long mAlarmTriggerTime;

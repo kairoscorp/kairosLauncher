@@ -29,7 +29,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
-
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Manages apps for different users (Lolipop)
+ ----------------------------------------------------------------*/
 public class UserManagerCompatVL extends UserManagerCompat {
     private static final String USER_CREATION_TIME_KEY = "user_creation_time_";
 

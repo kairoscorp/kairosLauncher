@@ -24,6 +24,15 @@ import android.util.Pair;
 
 import java.io.File;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Utilities to discover and interact with partner customizations. There can
+ * only be one set of customizations on a device, and it must be bundled with
+ * the system.
+ ----------------------------------------------------------------*/
+
 /**
  * Utilities to discover and interact with partner customizations. There can
  * only be one set of customizations on a device, and it must be bundled with

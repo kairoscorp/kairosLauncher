@@ -19,7 +19,11 @@ package com.kairos.launcher.compat;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
-
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Manages apps for different users (Nougat 7.1)
+ ----------------------------------------------------------------*/
 @TargetApi(Build.VERSION_CODES.N_MR1)
 public class UserManagerCompatVNMr1 extends UserManagerCompatVN {
 

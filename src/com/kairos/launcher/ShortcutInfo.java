@@ -27,6 +27,13 @@ import com.kairos.launcher.compat.UserManagerCompat;
 import com.kairos.launcher.shortcuts.ShortcutInfoCompat;
 import com.kairos.launcher.util.ContentWriter;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Entity class for a shortcut
+ ----------------------------------------------------------------*/
+
 /**
  * Represents a launchable icon on the workspaces and in folders.
  */

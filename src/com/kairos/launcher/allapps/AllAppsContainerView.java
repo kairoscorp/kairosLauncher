@@ -63,9 +63,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-/**
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * The all apps view container.
- */
+
+ ----------------------------------------------------------------*/
 public class AllAppsContainerView extends BaseContainerView implements DragSource,
         View.OnLongClickListener, AllAppsSearchBarController.Callbacks, Insettable {
 

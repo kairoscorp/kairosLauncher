@@ -40,6 +40,13 @@ import com.kairos.launcher.compat.LauncherAppsCompat;
 
 import java.util.List;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * BroadcastReceiver to handle session commit intent.
+ ----------------------------------------------------------------*/
+
 /**
  * BroadcastReceiver to handle session commit intent.
  */

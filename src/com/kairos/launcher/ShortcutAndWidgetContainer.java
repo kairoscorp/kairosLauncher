@@ -22,6 +22,13 @@ import android.graphics.Rect;
 import android.view.View;
 import android.view.ViewGroup;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Custom view that can hold a widget or a shortcut
+ ----------------------------------------------------------------*/
+
 public class ShortcutAndWidgetContainer extends ViewGroup {
     static final String TAG = "ShortcutAndWidgetContainer";
 

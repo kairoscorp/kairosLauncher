@@ -23,6 +23,16 @@ import android.view.ScaleGestureDetector;
 
 import com.kairos.launcher.util.TouchController;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Detects pinches and animates the Workspace to/from overview mode.
+ *
+ * Usage: Pass MotionEvents to onInterceptTouchEvent() and onTouchEvent(). This class will handle
+ * the pinch detection, and use {@link PinchAnimationManager} to handle the animations.
+ ----------------------------------------------------------------*/
+
 /**
  * Detects pinches and animates the Workspace to/from overview mode.
  *

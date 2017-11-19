@@ -36,6 +36,13 @@ import com.kairos.launcher.util.CircleRevealOutlineProvider;
 import com.kairos.launcher.util.Thunk;
 import com.kairos.launcher.widget.WidgetsContainerView;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class that handles state transitions
+ ----------------------------------------------------------------*/
+
 /**
  * TODO: figure out what kind of tests we can write for this
  *

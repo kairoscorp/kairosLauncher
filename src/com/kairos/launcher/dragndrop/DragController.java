@@ -41,9 +41,12 @@ import com.kairos.launcher.util.TouchController;
 
 import java.util.ArrayList;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Class for initiating a drag within a view or across multiple views.
- */
+
+ ----------------------------------------------------------------*/
 public class DragController implements DragDriver.EventListener, TouchController {
     private static final boolean PROFILE_DRAWING_DURING_DRAG = false;
 

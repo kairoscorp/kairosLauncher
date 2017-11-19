@@ -23,10 +23,13 @@ import android.view.accessibility.AccessibilityManager;
 
 import com.kairos.launcher.Launcher;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Periodically sends accessibility events to announce ongoing state changed. Based on the
- * implementation in ProgressBar.
- */
+ * implementation in ProgressBar
+ ----------------------------------------------------------------*/
 public class DragViewStateAnnouncer implements Runnable {
 
     private static final int TIMEOUT_SEND_ACCESSIBILITY_EVENT = 200;

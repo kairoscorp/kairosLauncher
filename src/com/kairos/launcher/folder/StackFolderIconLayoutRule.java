@@ -20,6 +20,14 @@ import android.view.View;
 
 import java.util.List;
 
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Folder Icon generator
+
+ ----------------------------------------------------------------*/
+
 public class StackFolderIconLayoutRule implements FolderIcon.PreviewLayoutRule {
 
     static final int MAX_NUM_ITEMS_IN_PREVIEW = 3;

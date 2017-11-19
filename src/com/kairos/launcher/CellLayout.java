@@ -67,6 +67,14 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Stack;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class that controls the grid layout of the Workspace. Dragging and dropping apps.
+ * Managing Workspaces, folders etc.
+ ----------------------------------------------------------------*/
+
 public class CellLayout extends ViewGroup implements BubbleTextView.BubbleTextShadowHandler {
     public static final int WORKSPACE_ACCESSIBILITY_DRAG = 2;
     public static final int FOLDER_ACCESSIBILITY_DRAG = 1;

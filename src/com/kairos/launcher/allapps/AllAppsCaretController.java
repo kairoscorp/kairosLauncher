@@ -21,6 +21,11 @@ import android.view.animation.Interpolator;
 
 import com.kairos.launcher.Launcher;
 import com.kairos.launcher.pageindicators.CaretDrawable;
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Carret(Side bar to scrool) Controller
+ ----------------------------------------------------------------*/
 
 public class AllAppsCaretController {
     // Determines when the caret should flip. Should be accessed via getThreshold()

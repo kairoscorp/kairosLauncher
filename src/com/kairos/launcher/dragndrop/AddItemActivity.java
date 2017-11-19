@@ -56,6 +56,12 @@ import com.kairos.launcher.widget.WidgetImageView;
 import com.kairos.launcher.logging.LoggerUtils;
 import com.kairos.launcher.userevent.nano.LauncherLogProto;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Activity to add Item to Homescreen
+
+ ----------------------------------------------------------------*/
 @TargetApi(Build.VERSION_CODES.N_MR1)
 public class AddItemActivity extends BaseActivity implements OnLongClickListener, OnTouchListener {
 

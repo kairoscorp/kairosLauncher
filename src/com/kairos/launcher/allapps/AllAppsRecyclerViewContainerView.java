@@ -27,10 +27,12 @@ import com.kairos.launcher.ClickShadowView;
 import com.kairos.launcher.DeviceProfile;
 import com.kairos.launcher.Launcher;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * A container for RecyclerView to allow for the click shadow view to be shown behind an icon that
  * is launching.
- */
+ ----------------------------------------------------------------*/
 public class AllAppsRecyclerViewContainerView extends RelativeLayout
         implements BubbleTextView.BubbleTextShadowHandler {
 

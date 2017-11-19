@@ -23,9 +23,13 @@ import android.view.MotionEvent;
 import com.kairos.launcher.DropTarget.DragObject;
 import com.kairos.launcher.Utilities;
 
-/**
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Base class for driving a drag/drop operation.
- */
+
+ ----------------------------------------------------------------*/
 public abstract class DragDriver {
     protected final EventListener mEventListener;
 
@@ -92,9 +96,14 @@ public abstract class DragDriver {
     }
 }
 
-/**
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Class for driving a system (i.e. framework) drag/drop operation.
- */
+
+ ----------------------------------------------------------------*/
 class SystemDragDriver extends DragDriver {
 
     private final DragObject mDragObject;

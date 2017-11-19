@@ -5,6 +5,13 @@ import android.view.View;
 
 import com.kairos.launcher.StylusEventHelper.StylusButtonListener;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Simple listener that performs a long click on the view after a stylus button press.
+ ----------------------------------------------------------------*/
+
 /**
  * Simple listener that performs a long click on the view after a stylus button press.
  */

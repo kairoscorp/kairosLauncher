@@ -16,6 +16,11 @@
 
 package com.kairos.launcher.discovery;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * This class represents the state of App Discovey Update
+ ----------------------------------------------------------------*/
 public enum AppDiscoveryUpdateState {
     START, UPDATE, END
 }

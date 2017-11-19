@@ -20,6 +20,13 @@ import android.os.Looper;
 
 import com.kairos.launcher.util.LooperExecuter;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Executes tasks on the main thread
+ ----------------------------------------------------------------*/
+
 /**
  * An executor service that executes its tasks on the main thread.
  *

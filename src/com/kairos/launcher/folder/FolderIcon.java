@@ -79,9 +79,15 @@ import com.kairos.launcher.DropTarget;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * An icon that can appear on in the workspace representing an {@link Folder}.
- */
+
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * An icon that can appear on in the workspace representing an {@link Folder} i
+
+ ----------------------------------------------------------------*/
 public class FolderIcon extends FrameLayout implements FolderInfo.FolderListener {
     @Thunk
     Launcher mLauncher;

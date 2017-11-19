@@ -24,10 +24,14 @@ import com.kairos.launcher.Launcher;
 import com.kairos.launcher.dragndrop.DragController.DragListener;
 import com.kairos.launcher.dragndrop.DragOptions;
 
-/**
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
  * Utility listener to enable/disable accessibility drag flags for a ViewGroup
  * containing CellLayouts
- */
+ ----------------------------------------------------------------*/
 public class AccessibleDragListenerAdapter implements DragListener {
 
     private final ViewGroup mViewGroup;

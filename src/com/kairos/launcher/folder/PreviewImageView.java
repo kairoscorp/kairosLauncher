@@ -28,9 +28,14 @@ import com.kairos.launcher.Launcher;
 import com.kairos.launcher.R;
 import com.kairos.launcher.dragndrop.DragLayer;
 
-/**
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * A temporary view which displays the a bitmap (used for folder icon animation)
- */
+
+
+ ----------------------------------------------------------------*/
 public class PreviewImageView extends ImageView {
 
     private final Rect mTempRect = new Rect();

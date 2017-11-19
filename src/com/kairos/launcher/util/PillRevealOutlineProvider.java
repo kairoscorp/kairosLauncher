@@ -24,6 +24,16 @@ import android.view.ViewOutlineProvider;
  * A pill is simply a round rect, but we assume the width is greater than
  * the height and that the radius is equal to half the height.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class specifies the shape of a reveal animation.
+ * The animation has a progress that goes from 0 to 1 and this class
+ * uses that progress to specify a PILL SHAPED reveal animation.
+ ----------------------------------------------------------------*/
+
 public class PillRevealOutlineProvider extends RevealOutlineAnimation {
 
     private int mCenterX;

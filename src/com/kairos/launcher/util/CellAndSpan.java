@@ -3,6 +3,15 @@ package com.kairos.launcher.util;
 /**
  * Base class which represents an area on the grid.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * This class has information about a point (x,y) and the length
+ * along the X-axis and Y-axis that limits the total area.
+ ----------------------------------------------------------------*/
+
 public class CellAndSpan {
 
     /**

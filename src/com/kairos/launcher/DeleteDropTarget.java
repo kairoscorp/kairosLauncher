@@ -24,6 +24,13 @@ import android.view.View;
 import com.kairos.launcher.dragndrop.DragOptions;
 import com.kairos.launcher.folder.Folder;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class to handle the removal of apps, views and folders when dragging objects
+ ----------------------------------------------------------------*/
+
 public class DeleteDropTarget extends ButtonDropTarget {
 
     public DeleteDropTarget(Context context, AttributeSet attrs) {

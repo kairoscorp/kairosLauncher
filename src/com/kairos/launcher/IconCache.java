@@ -65,6 +65,14 @@ import java.util.List;
 import java.util.Set;
 import java.util.Stack;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Implementation of an icon cache. Creates a mini-db with all App-icons.
+ * Any thread can use this to fetch icons instead of using package manager.
+ ----------------------------------------------------------------*/
+
 /**
  * Cache of application icons.  Icons can be made from any thread.
  */

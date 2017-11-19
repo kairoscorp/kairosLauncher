@@ -40,9 +40,15 @@ import com.kairos.launcher.config.FeatureFlags;
 
 import java.io.IOException;
 
-/**
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Extracts colors from the wallpaper, and saves results to {@link LauncherProvider}.
- */
+
+
+ ----------------------------------------------------------------*/
 public class ColorExtractionService extends JobService {
 
     private static final String TAG = "ColorExtractionService";

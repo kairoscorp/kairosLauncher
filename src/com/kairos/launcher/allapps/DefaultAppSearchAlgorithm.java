@@ -23,9 +23,13 @@ import com.kairos.launcher.util.ComponentKey;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * The default search implementation.
- */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * The default search implementation
+
+ ----------------------------------------------------------------*/
 public class DefaultAppSearchAlgorithm {
 
     private final List<AppInfo> mApps;

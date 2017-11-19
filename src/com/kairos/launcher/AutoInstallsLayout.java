@@ -51,6 +51,16 @@ import java.util.Locale;
 /**
  * Layout parsing code for auto installs layout
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Play Auto Install is an app that installs predefined apps
+ * on a device after a Google Account initial sign in.
+ * This class parses the layout corresponding to Auto Installs.
+ ----------------------------------------------------------------*/
+
 public class AutoInstallsLayout {
     private static final String TAG = "AutoInstalls";
     private static final boolean LOGD = false;

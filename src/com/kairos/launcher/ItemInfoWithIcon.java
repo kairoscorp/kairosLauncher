@@ -18,6 +18,13 @@ package com.kairos.launcher;
 
 import android.graphics.Bitmap;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Entity class for a item with a icon
+ ----------------------------------------------------------------*/
+
 /**
  * Represents an ItemInfo which also holds an icon.
  */

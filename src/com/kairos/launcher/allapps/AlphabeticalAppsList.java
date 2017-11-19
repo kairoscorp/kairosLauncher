@@ -39,9 +39,15 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.TreeMap;
 
-/**
- * The alphabetically sorted list of applications.
- */
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * An interface to a search box that AllApps can command.
+
+ ----------------------------------------------------------------*/
+
 public class AlphabeticalAppsList {
 
     public static final String TAG = "AlphabeticalAppsList";

@@ -19,10 +19,14 @@ package com.kairos.launcher.discovery;
 import android.content.Intent;
 import android.graphics.Bitmap;
 
-/**
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * This class represents the model for a discovered app via app discovery.
  * It holds all information for one result retrieved from an app discovery service.
- */
+ ----------------------------------------------------------------*/
+
 public class AppDiscoveryItem {
 
     public final String packageName;

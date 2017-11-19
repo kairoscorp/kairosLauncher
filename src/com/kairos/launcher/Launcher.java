@@ -140,6 +140,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Launcher Base Activity. 
+ ----------------------------------------------------------------*/
+
 /**
  * Default launcher application.
  */

@@ -30,6 +30,15 @@ import android.widget.LinearLayout;
 import com.kairos.launcher.dragndrop.DragController;
 import com.kairos.launcher.dragndrop.DragOptions;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class that handles the bar that appears when you drag a object.
+ * Mainly just creates listeners and calls the animation when needed.
+ ----------------------------------------------------------------*/
+
+
 /*
  * The top bar containing various drop targets: Delete/App Info/Uninstall.
  */

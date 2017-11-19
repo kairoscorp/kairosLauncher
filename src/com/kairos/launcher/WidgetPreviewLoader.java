@@ -53,6 +53,13 @@ import java.util.WeakHashMap;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Class for loading widgets. Also implements a Cache for widgets.
+ ----------------------------------------------------------------*/
+
 public class WidgetPreviewLoader {
 
     private static final String TAG = "WidgetPreviewLoader";

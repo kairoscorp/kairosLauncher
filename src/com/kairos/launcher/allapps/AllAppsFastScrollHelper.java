@@ -22,6 +22,11 @@ import com.kairos.launcher.util.Thunk;
 import java.util.HashSet;
 import java.util.List;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ * Scrool All Apps
+ ----------------------------------------------------------------*/
 public class AllAppsFastScrollHelper implements AllAppsGridAdapter.BindViewCallback {
 
     private static final int INITIAL_TOUCH_SETTLING_DURATION = 100;

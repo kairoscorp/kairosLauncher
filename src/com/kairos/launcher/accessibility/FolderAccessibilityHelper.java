@@ -21,8 +21,16 @@ import com.kairos.launcher.folder.FolderPagedView;
 import com.kairos.launcher.R;
 
 /**
- * Implementation of {@link DragAndDropAccessibilityDelegate} to support DnD in a folder.
  */
+
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Implementation of {@link DragAndDropAccessibilityDelegate} to support Do not Disturb in a folder.
+
+ ----------------------------------------------------------------*/
 public class FolderAccessibilityHelper extends DragAndDropAccessibilityDelegate {
 
     /**

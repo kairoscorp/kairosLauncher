@@ -28,9 +28,12 @@ import com.kairos.launcher.DropTarget;
 import com.kairos.launcher.Launcher;
 import com.kairos.launcher.util.FlingAnimation;
 
-/**
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Daniel :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
  * Utility class to manage fling to delete action during drag and drop.
- */
+
+ ----------------------------------------------------------------*/
 public class FlingToDeleteHelper {
 
     private static final float MAX_FLING_DEGREES = 35f;
