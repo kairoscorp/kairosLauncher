@@ -47,6 +47,14 @@ import java.util.Map;
  * happens and less memory is consumed. {@link #getItemViewType} was not overridden as there is
  * only a single type of view.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Provides a binding between the widgets data and the view
+ ----------------------------------------------------------------*/
+
 public class WidgetsListAdapter extends Adapter<WidgetsRowViewHolder> {
 
     private static final String TAG = "WidgetsListAdapter";

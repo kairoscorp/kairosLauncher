@@ -20,6 +20,13 @@ import android.view.ViewGroup;
 
 import com.kairos.launcher.BubbleTextView;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Holds information about a widgets row and metadata about its place
+ ----------------------------------------------------------------*/
+
 public class WidgetsRowViewHolder extends ViewHolder {
 
     public final ViewGroup cellContainer;

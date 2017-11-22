@@ -32,6 +32,14 @@ import com.kairos.launcher.util.PendingRequestArgs;
 /**
  * Utility class to handle app widget add flow.
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Handles the process of adding a widget
+ ----------------------------------------------------------------*/
+
 public class WidgetAddFlowHandler implements Parcelable {
 
     private final AppWidgetProviderInfo mProviderInfo;

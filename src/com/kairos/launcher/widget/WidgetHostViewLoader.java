@@ -19,6 +19,13 @@ import com.kairos.launcher.dragndrop.DragLayer;
 import com.kairos.launcher.dragndrop.DragOptions;
 import com.kairos.launcher.util.Thunk;
 
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Handles the loading of the widget when dragging (reacts to drag start and drag end)
+ ----------------------------------------------------------------*/
+
 public class WidgetHostViewLoader implements DragController.DragListener {
     private static final String TAG = "WidgetHostViewLoader";
     private static final boolean LOGD = false;

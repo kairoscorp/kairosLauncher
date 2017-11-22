@@ -27,6 +27,14 @@ import com.kairos.launcher.PendingAddItemInfo;
  *
  * @see {@link PendingAddItemInfo}
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Similar to PendingAddItemInfo, but passes information about the widget
+ ----------------------------------------------------------------*/
+
 public class PendingAddWidgetInfo extends PendingAddItemInfo {
     public int previewImage;
     public int icon;

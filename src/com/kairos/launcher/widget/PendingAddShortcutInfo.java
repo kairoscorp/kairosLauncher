@@ -23,6 +23,14 @@ import com.kairos.launcher.compat.ShortcutConfigActivityInfo;
  *
  * @see {@link PendingAddItemInfo}
  */
+
+/**--------------------------------------------------------------
+ * TEAM KAIROS :: DEV Kiko :: CLASS SYNOPSIS
+ * Copyright (c) 2017 KAIROS
+ *
+ * Similar to PendingAddItemInfo, but passes information about the shortcut
+ ----------------------------------------------------------------*/
+
 public class PendingAddShortcutInfo extends PendingAddItemInfo {
 
     public ShortcutConfigActivityInfo activityInfo;
