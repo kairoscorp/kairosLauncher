@@ -39,6 +39,8 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.telephony.TelephonyManager;
 import android.util.Log;
+import android.view.Display;
+import android.view.WindowManager;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -116,7 +118,7 @@ public class CollectorService extends Service implements GoogleApiClient.Connect
                     phoneActivity = 1;
                 }else {
                     appForeground = NULL_APP;
-                    phoneActivity = 1;
+                    phoneActivity = 0;
                 }
 
                 if(isMusicPlaying()){
@@ -196,12 +198,26 @@ public class CollectorService extends Service implements GoogleApiClient.Connect
 
     private boolean isPhoneActive(){
         boolean result;
-        PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
+        /*PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
         try{
             result = pm.isInteractive();
         }catch(Exception ex){
             result = false;
         }
+        return result;*/
+        WindowManager wm = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
+        Display display = wm.getDefaultDisplay();
+
+        switch(display.getState()){
+            case Display.STATE_OFF : result = false; break;
+            case Display.STATE_ON : result = true; break;
+            case Display.STATE_VR : result = true; break;
+            case Display.STATE_DOZE : result = true; break;
+            case Display.STATE_DOZE_SUSPEND : result = true; break;
+            case Display.STATE_UNKNOWN : result = false; break;
+            default : result =false; break;
+        }
+
         return result;
     }
 
@@ -331,10 +347,11 @@ public class CollectorService extends Service implements GoogleApiClient.Connect
         Intent intent = new Intent( this, ActivityRecognitionService.class );
         PendingIntent pendingIntent = PendingIntent.getService( this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT );
 
-        ActivityRecognition.ActivityRecognitionApi.requestActivityUpdates( googleApiClient, 3000, pendingIntent );
+        ActivityRecognition.ActivityRecognitionApi.requestActivityUpdates( googleApiClient, 10000, pendingIntent );
 
-        //ActivityRecognitionApi activityRecognitionClient = ActivityRecognition.getClient(this);
-        //activityRecognitionClient.requestActivityUpdates(5000, pendingIntent );
+
+        //ActivityRecognitionClient activityRecognitionClient = ActivityRecognition.getClient(this);
+        //activityRecognitionClient.requestActivityUpdates(3000, pendingIntent );
     }
 
     @Override

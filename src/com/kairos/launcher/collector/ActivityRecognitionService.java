@@ -39,7 +39,7 @@ public class ActivityRecognitionService extends IntentService {
         int mostSignificant = -1;
         int mostSignificantValue = 0;
         for( DetectedActivity activity : probableActivities ) {
-           if(activity.getConfidence()>mostSignificantValue && activity.getType() != DetectedActivity.ON_FOOT){
+           if(activity.getConfidence()>mostSignificantValue && activity.getType() != DetectedActivity.ON_FOOT) {
                mostSignificant = activity.getType();
            }
         }
