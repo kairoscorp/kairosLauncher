@@ -54,6 +54,7 @@ import android.os.SystemClock;
 import android.os.Trace;
 import android.os.UserHandle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.text.Selection;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
@@ -130,6 +131,7 @@ import com.kairos.launcher.widget.PendingAddWidgetInfo;
 import com.kairos.launcher.widget.WidgetAddFlowHandler;
 import com.kairos.launcher.widget.WidgetHostViewLoader;
 import com.kairos.launcher.widget.WidgetsContainerView;
+import com.kairos.launcher.collector.CollectorService;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
@@ -144,7 +146,7 @@ import java.util.Set;
  * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
  * Copyright (c) 2017 KAIROS
  *
- * Launcher Base Activity. 
+ * Launcher Base Activity.
  ----------------------------------------------------------------*/
 
 /**
@@ -341,6 +343,10 @@ public class Launcher extends BaseActivity
 
     private RotationPrefChangeHandler mRotationPrefChangeHandler;
 
+    //KAIROS VARIABLES
+    private boolean permissionsGranted = false;
+    public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         if (DEBUG_STRICT_MODE) {
@@ -366,6 +372,7 @@ public class Launcher extends BaseActivity
         }
 
         super.onCreate(savedInstanceState);
+
 
         LauncherAppState app = LauncherAppState.getInstance(this);
 
@@ -462,6 +469,57 @@ public class Launcher extends BaseActivity
         if (mLauncherCallbacks != null) {
             mLauncherCallbacks.onCreate(savedInstanceState);
         }
+
+        //KAIROS
+        checkPermissions();
+        if(permissionsGranted == true){
+            bindCollectorService();
+        }
+
+    }
+
+    //KAIROS
+    private void checkPermissions(){
+        if ((ActivityCompat.checkSelfPermission(this,
+                android.Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) ||
+                (ActivityCompat.checkSelfPermission(this,
+                    android.Manifest.permission.ACCESS_COARSE_LOCATION)
+                    != PackageManager.PERMISSION_GRANTED)||
+                (ActivityCompat.checkSelfPermission(this,
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                    != PackageManager.PERMISSION_GRANTED) ||
+                (ActivityCompat.checkSelfPermission(this,
+                    Manifest.permission.GET_ACCOUNTS)
+                    != PackageManager.PERMISSION_GRANTED)){
+
+
+            requestPremissions();
+
+        }else{
+            Log.i("CollectorServiceLog", "permissions OK");
+            permissionsGranted = true;
+        }
+    }
+
+    //KAIROS
+    private void requestPremissions(){
+        ActivityCompat.requestPermissions(this,
+                new String[]{Manifest.permission.ACCESS_COARSE_LOCATION,
+                             Manifest.permission.ACCESS_FINE_LOCATION,
+                             Manifest.permission.ACCOUNT_MANAGER,
+                             Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                             Manifest.permission.PACKAGE_USAGE_STATS,
+                             Manifest.permission.GET_ACCOUNTS},
+                MY_PERMISSIONS_REQUEST_LOCATION);
+    }
+
+    //KAIROS
+    private void bindCollectorService(){
+        Log.i("CollectorServiceLog", "Binding Service");
+        Intent intent = new Intent(this, CollectorService.class);
+        startService(intent);
+
     }
 
     @Override
@@ -844,6 +902,7 @@ public class Launcher extends BaseActivity
         }
     }
 
+    //KAIROS - MODIFIED
     /** @Override for MNC */
     public void onRequestPermissionsResult(int requestCode, String[] permissions,
             int[] grantResults) {
@@ -868,6 +927,24 @@ public class Launcher extends BaseActivity
                         getString(R.string.derived_app_name)), Toast.LENGTH_SHORT).show();
             }
         }
+
+        //KAIROS
+        switch (requestCode) {
+            case MY_PERMISSIONS_REQUEST_LOCATION: {
+
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    permissionsGranted = true;
+
+                } else {
+
+                    permissionsGranted = false;
+
+                }
+
+            }
+        }
+
         if (mLauncherCallbacks != null) {
             mLauncherCallbacks.onRequestPermissionsResult(requestCode, permissions,
                     grantResults);
@@ -958,6 +1035,15 @@ public class Launcher extends BaseActivity
         if (!isWorkspaceLoading()) {
             NotificationListener.setNotificationsChangedListener(mPopupDataProvider);
         }
+
+        //KAIROS
+        checkPermissions();
+        if(permissionsGranted==true){
+            bindCollectorService();
+        }
+
+
+
     }
 
     @Override
@@ -1071,6 +1157,12 @@ public class Launcher extends BaseActivity
         mIsResumeFromActionScreenOff = false;
         if (mLauncherCallbacks != null) {
             mLauncherCallbacks.onResume();
+        }
+
+        //KAIROS
+        checkPermissions();
+        if(permissionsGranted==true){
+            bindCollectorService();
         }
 
     }

@@ -17,17 +17,25 @@
 package com.kairos.launcher;
 
 import android.app.Activity;
+import android.content.ComponentName;
 import android.content.ContentResolver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.ServiceConnection;
 import android.database.ContentObserver;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
+import android.os.IBinder;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.provider.Settings;
 import android.provider.Settings.System;
 import android.support.v4.os.BuildCompat;
+import android.util.Log;
 
+import com.kairos.launcher.collector.CollectorService;
 import com.kairos.launcher.graphics.IconShapeOverride;
 
 /**--------------------------------------------------------------
@@ -63,6 +71,14 @@ public class SettingsActivity extends Activity {
 
         private SystemDisplayRotationLockObserver mRotationLockObserver;
         private IconBadgingObserver mIconBadgingObserver;
+        private Context parentContext;
+
+        //KAIROS
+        private CollectorService mCollectorService;
+        private boolean bound;
+        private ServiceConnection mServiceConnection;
+
+
 
         @Override
         public void onCreate(Bundle savedInstanceState) {
@@ -70,7 +86,36 @@ public class SettingsActivity extends Activity {
             getPreferenceManager().setSharedPreferencesName(LauncherFiles.SHARED_PREFERENCES_KEY);
             addPreferencesFromResource(R.xml.launcher_preferences);
 
+            //KAIROS
+            parentContext = getActivity();
+
             ContentResolver resolver = getActivity().getContentResolver();
+
+            //KAIROS
+            Preference button = findPreference("dumpButton");
+            button.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                @Override
+                public boolean onPreferenceClick(Preference preference) {
+                    bindToCollectorService();
+                    dumpToCSV();
+                    return true;
+                }
+            });
+
+            mServiceConnection = new ServiceConnection() {
+                @Override
+                public void onServiceConnected(ComponentName name, IBinder service) {
+                    Log.i("CollectorServiceLog", "vtrsying collector");
+                    CollectorService.CollectorServiceBinder collectorBinder = (CollectorService.CollectorServiceBinder)service;
+                    mCollectorService = collectorBinder.getBinder();
+                    bound = true;
+                }
+
+                @Override
+                public void onServiceDisconnected(ComponentName name) {
+                    bound = false;
+                }
+            };
 
             // Setup allow rotation preference
             Preference rotationPref = findPreference(Utilities.ALLOW_ROTATION_PREFERENCE_KEY);
@@ -125,7 +170,75 @@ public class SettingsActivity extends Activity {
                 getActivity().getContentResolver().unregisterContentObserver(mIconBadgingObserver);
                 mIconBadgingObserver = null;
             }
+
+            if(bound){
+                parentContext.unbindService(mServiceConnection);
+                bound = false;
+            }
+
             super.onDestroy();
+        }
+
+        //KAIROS
+        private void bindToCollectorService(){
+
+            mServiceConnection = new ServiceConnection() {
+                @Override
+                public void onServiceConnected(ComponentName name, IBinder service) {
+                    Log.i("CollectorServiceLog", "vtrsying collector");
+                    CollectorService.CollectorServiceBinder collectorBinder = (CollectorService.CollectorServiceBinder)service;
+                    mCollectorService = collectorBinder.getBinder();
+                    bound = true;
+                }
+
+
+
+                @Override
+                public void onServiceDisconnected(ComponentName name) {
+                    bound = false;
+                }
+            };
+
+            final Handler handler = new Handler();
+            handler.post(new Runnable() {
+                @Override
+                public void run() {
+
+                    if(mServiceConnection != null){
+
+                        Intent intent = new Intent(parentContext, CollectorService.class);
+                        parentContext.bindService(intent, mServiceConnection, Context.BIND_AUTO_CREATE);
+
+                    }else {
+
+                        handler.postDelayed(this, 1000);
+
+                    }
+                }
+            });
+
+        }
+
+        //KAIROS
+        private void dumpToCSV(){
+
+            final Handler handler = new Handler();
+
+            handler.post(new Runnable() {
+                @Override
+                public void run() {
+
+                    if(mCollectorService != null){
+
+                        mCollectorService.dumpDatabaseToCSV(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), "KairosDump.csv" );
+
+                    }else {
+
+                        handler.postDelayed(this, 1000);
+
+                    }
+                }
+            });
         }
     }
 

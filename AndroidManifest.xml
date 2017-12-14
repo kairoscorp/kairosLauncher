@@ -19,6 +19,7 @@
 -->
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.kairos.launcher">
     <uses-sdk android:targetSdkVersion="23" android:minSdkVersion="21"/>
     <!--
@@ -44,10 +45,22 @@
         android:label="@string/permlab_write_settings"
         android:description="@string/permdesc_write_settings"/>
 
+
+
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
     <uses-permission android:name="com.kairos.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="com.kairos.launcher.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
 
     <application
         android:backupAgent="com.kairos.launcher.LauncherBackupAgent"
@@ -60,6 +73,10 @@
         android:largeHeap="@bool/config_largeHeap"
         android:restoreAnyVersion="true"
         android:supportsRtl="true" >
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="6171000" />
 
         <!--
         Main launcher activity. When extending only change the name, and keep all the
@@ -111,6 +128,16 @@
             android:exported="true"
             android:writePermission="com.kairos.launcher.permission.WRITE_SETTINGS"
             android:readPermission="com.kairos.launcher.permission.READ_SETTINGS" />
+
+        <service android:name="com.kairos.launcher.collector.CollectorService"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.service.notification.CollectorService" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".collector.ActivityRecognitionService" />
 
         <!-- ENABLE_FOR_TESTING
 

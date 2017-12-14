@@ -51,5 +51,9 @@
         android:defaultValue="@bool/allow_rotation"
         android:persistent="true"
         />
+    <!-- KAIROS -->
+    <Preference android:title="Dump CollectorService"
+        android:key="dumpButton"
+        android:summary="Dumps DB data to csv file in downloads dir"/>
 
 </PreferenceScreen>
