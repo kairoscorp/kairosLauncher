@@ -111,7 +111,9 @@ public class AllAppsContainerView extends BaseContainerView implements DragSourc
         mSearchContainerMinHeight
                 = getResources().getDimensionPixelSize(com.kairos.launcher.R.dimen.all_apps_search_bar_height);
 
-        Selection.setSelection(mSearchQueryBuilder, 0);
+        if(!isInEditMode()){
+            Selection.setSelection(mSearchQueryBuilder, 0);
+        }
     }
 
     @Override

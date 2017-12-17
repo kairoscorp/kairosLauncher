@@ -51,12 +51,12 @@ public class AllAppsRecyclerViewContainerView extends RelativeLayout
 
         Launcher launcher = Launcher.getLauncher(context);
         DeviceProfile grid = launcher.getDeviceProfile();
-
         mTouchFeedbackView = new ClickShadowView(context);
-
-        // Make the feedback view large enough to hold the blur bitmap.
         int size = grid.allAppsIconSizePx + mTouchFeedbackView.getExtraSize();
-        addView(mTouchFeedbackView, size, size);
+        if(!isInEditMode()){
+            //Make the feedback view large enough to hold the blur bitmap.
+            addView(mTouchFeedbackView, size, size);
+        }
     }
 
     @Override

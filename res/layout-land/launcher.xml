@@ -25,12 +25,12 @@
 
     <com.kairos.launcher.dragndrop.DragLayer
         android:id="@+id/drag_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/workspace_bg"
         android:clipChildren="false"
         android:clipToPadding="false"
-        android:background="@drawable/workspace_bg"
-        android:importantForAccessibility="no"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:importantForAccessibility="no">
 
         <!-- The workspace contains 5 screens of cells -->
         <!-- DO NOT CHANGE THE ID -->
@@ -42,8 +42,9 @@
             launcher:pageIndicator="@id/page_indicator" />
 
         <!-- DO NOT CHANGE THE ID -->
-        <include layout="@layout/hotseat"
+        <include
             android:id="@+id/hotseat"
+            layout="@layout/hotseat"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="right"
@@ -53,30 +54,43 @@
             android:id="@+id/drop_target_bar"
             layout="@layout/drop_target_bar_vert" />
 
-        <include layout="@layout/overview_panel"
+        <include
             android:id="@+id/overview_panel"
+            layout="@layout/overview_panel"
             android:visibility="gone" />
 
         <com.kairos.launcher.pageindicators.PageIndicatorCaretLandscape
             android:id="@+id/page_indicator"
             android:layout_width="@dimen/dynamic_grid_page_indicator_height"
             android:layout_height="@dimen/dynamic_grid_page_indicator_height"
-            android:layout_gravity="bottom|left"/>
+            android:layout_gravity="bottom|left" />
 
         <!-- A place holder view instead of the QSB in transposed layout -->
         <View
+            android:id="@+id/workspace_blocked_row"
             android:layout_width="0dp"
-            android:layout_height="10dp"
-            android:id="@+id/workspace_blocked_row" />
+            android:layout_height="10dp" />
 
-        <include layout="@layout/widgets_view"
+        <include
             android:id="@+id/widgets_view"
+            layout="@layout/widgets_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="invisible" />
 
-        <include layout="@layout/all_apps"
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            launcher:adSize="FULL_BANNER"
+            launcher:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+
+        <include
             android:id="@+id/apps_view"
+            layout="@layout/all_apps"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="invisible" />

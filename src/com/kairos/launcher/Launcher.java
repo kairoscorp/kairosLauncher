@@ -140,6 +140,11 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+//For adds
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 /**--------------------------------------------------------------
  * TEAM KAIROS :: DEV CARLOS :: CLASS SYNOPSIS
  * Copyright (c) 2017 KAIROS
@@ -155,6 +160,9 @@ public class Launcher extends BaseActivity
                    LauncherModel.Callbacks, View.OnTouchListener, LauncherProviderChangeListener,
                    AccessibilityManager.AccessibilityStateChangeListener {
     public static final String TAG = "Launcher";
+
+    private AdView mAdView;
+
     static final boolean LOGD = false;
 
     static final boolean DEBUG_WIDGETS = false;
@@ -343,6 +351,7 @@ public class Launcher extends BaseActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         if (DEBUG_STRICT_MODE) {
             StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
                     .detectDiskReads()
@@ -462,6 +471,15 @@ public class Launcher extends BaseActivity
         if (mLauncherCallbacks != null) {
             mLauncherCallbacks.onCreate(savedInstanceState);
         }
+
+        /**
+         * For adds
+         */
+        MobileAds.initialize(this, "ca-app-pub-2982955275314992~3053758196");
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
     @Override

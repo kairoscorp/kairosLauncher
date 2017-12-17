@@ -64,14 +64,20 @@ android {
 repositories {
     mavenCentral()
     jcenter()
+    maven {
+        url "https://maven.google.com"
+    }
 }
 
 final String SUPPORT_LIBS_VERSION = '26.+'
+
+
 dependencies {
     compile "com.android.support:support-v4:${SUPPORT_LIBS_VERSION}"
     compile "com.android.support:recyclerview-v7:${SUPPORT_LIBS_VERSION}"
     compile "com.android.support:palette-v7:${SUPPORT_LIBS_VERSION}"
     compile 'com.google.protobuf.nano:protobuf-javanano:3.0.0-alpha-2'
+    compile 'com.google.android.gms:play-services-ads:11.6.0'
 
     testCompile 'junit:junit:4.12'
     androidTestCompile "org.mockito:mockito-core:1.+"

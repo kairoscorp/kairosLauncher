@@ -78,6 +78,19 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="invisible" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            launcher:adSize="FULL_BANNER"
+            launcher:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+
     </com.kairos.launcher.dragndrop.DragLayer>
+
+
 
 </com.kairos.launcher.LauncherRootView>
