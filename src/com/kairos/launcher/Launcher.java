@@ -78,6 +78,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdSize;
 import com.kairos.launcher.DropTarget.DragObject;
 import com.kairos.launcher.LauncherSettings.Favorites;
 import com.kairos.launcher.accessibility.LauncherAccessibilityDelegate;
@@ -475,9 +476,11 @@ public class Launcher extends BaseActivity
         /**
          * For adds
          */
-        MobileAds.initialize(this, "ca-app-pub-2982955275314992~3053758196");
+        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
 
-        mAdView = findViewById(R.id.adView);
+        mAdView = new AdView(this);
+        mAdView.setAdSize(AdSize.BANNER);
+        mAdView.setAdUnitId("ca-app-pub-3940256099942544/6300978111");
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
     }
